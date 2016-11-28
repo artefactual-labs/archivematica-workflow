@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+type = CHROME
+
+[archivematica.mcp-workflow]
+file_filter = dist/workflows/locale/default/<lang>.json
+source_file = dist/workflows/locale/default/en.json
+source_lang = en

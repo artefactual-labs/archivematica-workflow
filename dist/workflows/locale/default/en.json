@@ -1,0 +1,1198 @@
+{
+    "1 - fastest mode": {
+        "description": "Link choice (replacement dict)",
+        "message": "1 - fastest mode"
+    },
+    "3 - fast compression mode": {
+        "description": "Link choice (replacement dict)",
+        "message": "3 - fast compression mode"
+    },
+    "5 - normal compression mode": {
+        "description": "Link choice (replacement dict)",
+        "message": "5 - normal compression mode"
+    },
+    "7 - maximum compression": {
+        "description": "Link choice (replacement dict)",
+        "message": "7 - maximum compression"
+    },
+    "7z using bzip2": {
+        "description": "Link choice (replacement dict)",
+        "message": "7z using bzip2"
+    },
+    "7z using lzma": {
+        "description": "Link choice (replacement dict)",
+        "message": "7z using lzma"
+    },
+    "9 - ultra compression": {
+        "description": "Link choice (replacement dict)",
+        "message": "9 - ultra compression"
+    },
+    "AIP reingest approval chain": {
+        "description": "Chain description",
+        "message": "AIP reingest approval chain"
+    },
+    "Add final metadata": {
+        "description": "Link group",
+        "message": "Add final metadata"
+    },
+    "Add processed structMap to METS.xml document": {
+        "description": "Link description",
+        "message": "Add processed structMap to METS.xml document"
+    },
+    "Approve": {
+        "description": "Chain description",
+        "message": "Approve"
+    },
+    "Approve AIC": {
+        "description": "Link description",
+        "message": "Approve AIC"
+    },
+    "Approve AIP reingest": {
+        "description": "Link description",
+        "message": "Approve AIP reingest"
+    },
+    "Approve DSpace transfer": {
+        "description": "Link description",
+        "message": "Approve DSpace transfer"
+    },
+    "Approve SIP Creation": {
+        "description": "Link description",
+        "message": "Approve SIP Creation"
+    },
+    "Approve SIP creation": {
+        "description": "Link group",
+        "message": "Approve SIP creation"
+    },
+    "Approve TRIM transfer": {
+        "description": "Link description",
+        "message": "Approve TRIM transfer"
+    },
+    "Approve bagit transfer": {
+        "description": "Link description",
+        "message": "Approve bagit transfer"
+    },
+    "Approve maildir transfer": {
+        "description": "Link description",
+        "message": "Approve maildir transfer"
+    },
+    "Approve normalization": {
+        "description": "Link description",
+        "message": "Approve normalization"
+    },
+    "Approve standard transfer": {
+        "description": "Link description",
+        "message": "Approve standard transfer"
+    },
+    "Approve transfer": {
+        "description": "Link group",
+        "message": "Approve transfer"
+    },
+    "Approve zipped bagit transfer": {
+        "description": "Link description",
+        "message": "Approve zipped bagit transfer"
+    },
+    "Assign UUIDs to manual normalized preservation files": {
+        "description": "Link description",
+        "message": "Assign UUIDs to manual normalized preservation files"
+    },
+    "Assign checksums and file sizes to metadata ": {
+        "description": "Link description",
+        "message": "Assign checksums and file sizes to metadata "
+    },
+    "Assign checksums and file sizes to objects": {
+        "description": "Link description",
+        "message": "Assign checksums and file sizes to objects"
+    },
+    "Assign checksums and file sizes to submissionDocumentation": {
+        "description": "Link description",
+        "message": "Assign checksums and file sizes to submissionDocumentation"
+    },
+    "Assign checksums to manual normalized preservation files": {
+        "description": "Link description",
+        "message": "Assign checksums to manual normalized preservation files"
+    },
+    "Assign file UUIDs and checksums": {
+        "description": "Link group",
+        "message": "Assign file UUIDs and checksums"
+    },
+    "Assign file UUIDs to metadata": {
+        "description": "Link description",
+        "message": "Assign file UUIDs to metadata"
+    },
+    "Assign file UUIDs to objects": {
+        "description": "Link description",
+        "message": "Assign file UUIDs to objects"
+    },
+    "Assign file UUIDs to submission documentation": {
+        "description": "Link description",
+        "message": "Assign file UUIDs to submission documentation"
+    },
+    "Attempt restructure for compliance": {
+        "description": "Link description",
+        "message": "Attempt restructure for compliance"
+    },
+    "Attempt restructure for compliance?": {
+        "description": "Link description",
+        "message": "Attempt restructure for compliance?"
+    },
+    "Automatic SIP Creation complete": {
+        "description": "Chain description",
+        "message": "Automatic SIP Creation complete"
+    },
+    "Characterize and extract metadata": {
+        "description": "Link group",
+        "message": "Characterize and extract metadata"
+    },
+    "Characterize and extract metadata for attachments": {
+        "description": "Link description",
+        "message": "Characterize and extract metadata for attachments"
+    },
+    "Characterize and extract metadata on metadata files": {
+        "description": "Link description",
+        "message": "Characterize and extract metadata on metadata files"
+    },
+    "Characterize and extract metadata on submission documentation": {
+        "description": "Link description",
+        "message": "Characterize and extract metadata on submission documentation"
+    },
+    "Check for Access directory": {
+        "description": "Link description",
+        "message": "Check for Access directory"
+    },
+    "Check for Service directory": {
+        "description": "Link description",
+        "message": "Check for Service directory"
+    },
+    "Check for manual normalized files": {
+        "description": "Link description",
+        "message": "Check for manual normalized files"
+    },
+    "Check for specialized processing": {
+        "description": "Link description",
+        "message": "Check for specialized processing"
+    },
+    "Check for submission documentation": {
+        "description": "Link description",
+        "message": "Check for submission documentation"
+    },
+    "Check if AIP is a file or directory": {
+        "description": "Link description",
+        "message": "Check if AIP is a file or directory"
+    },
+    "Check if DIP should be generated": {
+        "description": "Link description",
+        "message": "Check if DIP should be generated"
+    },
+    "Check if SIP is from Maildir Transfer": {
+        "description": "Link description",
+        "message": "Check if SIP is from Maildir Transfer"
+    },
+    "Check if file or folder": {
+        "description": "Link description",
+        "message": "Check if file or folder"
+    },
+    "Check transfer directory for objects": {
+        "description": "Link description",
+        "message": "Check transfer directory for objects"
+    },
+    "Choose Config for ArchivesSpace DIP Upload": {
+        "description": "Link description",
+        "message": "Choose Config for ArchivesSpace DIP Upload"
+    },
+    "Choose Config for Archivists Toolkit DIP Upload": {
+        "description": "Link description",
+        "message": "Choose Config for Archivists Toolkit DIP Upload"
+    },
+    "Choose config for AtoM DIP upload": {
+        "description": "Link description",
+        "message": "Choose config for AtoM DIP upload"
+    },
+    "Clean up after storing AIP": {
+        "description": "Link description",
+        "message": "Clean up after storing AIP"
+    },
+    "Clean up names": {
+        "description": "Link group",
+        "message": "Clean up names"
+    },
+    "Cleanup failed SIP": {
+        "description": "Link description",
+        "message": "Cleanup failed SIP"
+    },
+    "Cleanup failed Transfer": {
+        "description": "Link description",
+        "message": "Cleanup failed Transfer"
+    },
+    "Cleanup rejected SIP": {
+        "description": "Link description",
+        "message": "Cleanup rejected SIP"
+    },
+    "Cleanup rejected transfer": {
+        "description": "Link description",
+        "message": "Cleanup rejected transfer"
+    },
+    "Complete transfer": {
+        "description": "Link group",
+        "message": "Complete transfer"
+    },
+    "Completed": {
+        "description": "Link description",
+        "message": "Completed"
+    },
+    "Compress AIP": {
+        "description": "Link description",
+        "message": "Compress AIP"
+    },
+    "Continue": {
+        "description": "Chain description",
+        "message": "Continue"
+    },
+    "Copy METS to DIP directory": {
+        "description": "Link description",
+        "message": "Copy METS to DIP directory"
+    },
+    "Copy OCR data to DIP directory": {
+        "description": "Link description",
+        "message": "Copy OCR data to DIP directory"
+    },
+    "Copy preconfigured choice XML to DIP directory": {
+        "description": "Link description",
+        "message": "Copy preconfigured choice XML to DIP directory"
+    },
+    "Copy submission documentation": {
+        "description": "Link description",
+        "message": "Copy submission documentation"
+    },
+    "Copy thumbnails to DIP directory": {
+        "description": "Link description",
+        "message": "Copy thumbnails to DIP directory"
+    },
+    "Copy transfer submission documentation": {
+        "description": "Link description",
+        "message": "Copy transfer submission documentation"
+    },
+    "Copy transfers metadata and logs": {
+        "description": "Link description",
+        "message": "Copy transfers metadata and logs"
+    },
+    "Create AIC": {
+        "description": "Chain description",
+        "message": "Create AIC"
+    },
+    "Create AIC METS file": {
+        "description": "Link description",
+        "message": "Create AIC METS file"
+    },
+    "Create AIP Pointer File": {
+        "description": "Link description",
+        "message": "Create AIP Pointer File"
+    },
+    "Create DIP directory": {
+        "description": "Link description",
+        "message": "Create DIP directory"
+    },
+    "Create SIP from Transfer": {
+        "description": "Link group",
+        "message": "Create SIP from Transfer"
+    },
+    "Create SIP from transfer objects": {
+        "description": "Link description",
+        "message": "Create SIP from transfer objects"
+    },
+    "Create SIP(s)": {
+        "description": "Link description",
+        "message": "Create SIP(s)"
+    },
+    "Create SIPs from TRIM transfer containers": {
+        "description": "Link description",
+        "message": "Create SIPs from TRIM transfer containers"
+    },
+    "Create placement in backlog PREMIS events": {
+        "description": "Link description",
+        "message": "Create placement in backlog PREMIS events"
+    },
+    "Create quarantine PREMIS events": {
+        "description": "Link description",
+        "message": "Create quarantine PREMIS events"
+    },
+    "Create removal from backlog PREMIS events": {
+        "description": "Link description",
+        "message": "Create removal from backlog PREMIS events"
+    },
+    "Create rights to flag closed AIPS.": {
+        "description": "Link description",
+        "message": "Create rights to flag closed AIPS."
+    },
+    "Create single SIP and continue processing": {
+        "description": "Chain description",
+        "message": "Create single SIP and continue processing"
+    },
+    "Create thumbnails directory": {
+        "description": "Link description",
+        "message": "Create thumbnails directory"
+    },
+    "Create transfer metadata XML": {
+        "description": "Link description",
+        "message": "Create transfer metadata XML"
+    },
+    "Create unquarantine PREMIS events": {
+        "description": "Link description",
+        "message": "Create unquarantine PREMIS events"
+    },
+    "DSpace Transfers In progress": {
+        "description": "Chain description",
+        "message": "DSpace Transfers In progress"
+    },
+    "Delete package after extraction?": {
+        "description": "Link description",
+        "message": "Delete package after extraction?"
+    },
+    "Designate to process as a DSpace transfer": {
+        "description": "Link description",
+        "message": "Designate to process as a DSpace transfer"
+    },
+    "Designate to process as a DSpace transfer when unquarantined": {
+        "description": "Link description",
+        "message": "Designate to process as a DSpace transfer when unquarantined"
+    },
+    "Designate to process as a standard transfer": {
+        "description": "Link description",
+        "message": "Designate to process as a standard transfer"
+    },
+    "Designate to process as a standard transfer when unquarantined": {
+        "description": "Link description",
+        "message": "Designate to process as a standard transfer when unquarantined"
+    },
+    "Determine if transfer contains packages": {
+        "description": "Link description",
+        "message": "Determine if transfer contains packages"
+    },
+    "Determine if transfer still contains packages": {
+        "description": "Link description",
+        "message": "Determine if transfer still contains packages"
+    },
+    "Determine processing path for this AIP version": {
+        "description": "Link description",
+        "message": "Determine processing path for this AIP version"
+    },
+    "Determine what to remove to re-normalize.": {
+        "description": "Link description",
+        "message": "Determine what to remove to re-normalize."
+    },
+    "Determine which files to identify": {
+        "description": "Link description",
+        "message": "Determine which files to identify"
+    },
+    "Do not normalize": {
+        "description": "Chain description",
+        "message": "Do not normalize"
+    },
+    "Do not store": {
+        "description": "Chain description",
+        "message": "Do not store"
+    },
+    "Email fail report": {
+        "description": "Link description",
+        "message": "Email fail report"
+    },
+    "Examine contents": {
+        "description": "Link group",
+        "message": "Examine contents"
+    },
+    "Examine contents?": {
+        "description": "Link description",
+        "message": "Examine contents?"
+    },
+    "Extract attachments": {
+        "description": "Link description",
+        "message": "Extract attachments"
+    },
+    "Extract contents from compressed archives": {
+        "description": "Link description",
+        "message": "Extract contents from compressed archives"
+    },
+    "Extract packages": {
+        "description": "Link group",
+        "message": "Extract packages"
+    },
+    "Extract packages?": {
+        "description": "Link description",
+        "message": "Extract packages?"
+    },
+    "Extract zipped bag transfer": {
+        "description": "Link description",
+        "message": "Extract zipped bag transfer"
+    },
+    "Failed SIP": {
+        "description": "Link group",
+        "message": "Failed SIP"
+    },
+    "Failed compliance": {
+        "description": "Link group",
+        "message": "Failed compliance"
+    },
+    "Failed compliance.": {
+        "description": "Link description",
+        "message": "Failed compliance."
+    },
+    "Failed compliance. See output in dashboard. SIP moved back to SIPsUnderConstruction": {
+        "description": "Link description",
+        "message": "Failed compliance. See output in dashboard. SIP moved back to SIPsUnderConstruction"
+    },
+    "Failed compliance. See output in dashboard. Transfer moved back to activeTransfers.": {
+        "description": "Link description",
+        "message": "Failed compliance. See output in dashboard. Transfer moved back to activeTransfers."
+    },
+    "Failed transfer": {
+        "description": "Link group",
+        "message": "Failed transfer"
+    },
+    "Failed transfer compliance": {
+        "description": "Link group",
+        "message": "Failed transfer compliance"
+    },
+    "Find branch to continue processing": {
+        "description": "Link description",
+        "message": "Find branch to continue processing"
+    },
+    "Find type to process as": {
+        "description": "Link description",
+        "message": "Find type to process as"
+    },
+    "Find type to remove from quarantine as": {
+        "description": "Link description",
+        "message": "Find type to remove from quarantine as"
+    },
+    "Generate AIP METS": {
+        "description": "Link group",
+        "message": "Generate AIP METS"
+    },
+    "Generate DIP": {
+        "description": "Link description",
+        "message": "Generate DIP"
+    },
+    "Generate METS.xml": {
+        "description": "Link group",
+        "message": "Generate METS.xml"
+    },
+    "Generate METS.xml document": {
+        "description": "Link description",
+        "message": "Generate METS.xml document"
+    },
+    "Generate transfer structure report": {
+        "description": "Link group",
+        "message": "Generate transfer structure report"
+    },
+    "Grant normalization options for no pre-existing DIP": {
+        "description": "Link description",
+        "message": "Grant normalization options for no pre-existing DIP"
+    },
+    "Grant normalization options for pre-existing DIP": {
+        "description": "Link description",
+        "message": "Grant normalization options for pre-existing DIP"
+    },
+    "Identify DSpace files": {
+        "description": "Link group",
+        "message": "Identify DSpace files"
+    },
+    "Identify DSpace mets files": {
+        "description": "Link description",
+        "message": "Identify DSpace mets files"
+    },
+    "Identify DSpace text files": {
+        "description": "Link description",
+        "message": "Identify DSpace text files"
+    },
+    "Identify by File Extension": {
+        "description": "Link choice (replacement dict)",
+        "message": "Identify by File Extension"
+    },
+    "Identify file format": {
+        "description": "Link group",
+        "message": "Identify file format"
+    },
+    "Identify file format of attachments": {
+        "description": "Link description",
+        "message": "Identify file format of attachments"
+    },
+    "Identify file format of metadata files": {
+        "description": "Link description",
+        "message": "Identify file format of metadata files"
+    },
+    "Identify manually normalized files": {
+        "description": "Link description",
+        "message": "Identify manually normalized files"
+    },
+    "Identify using Fido": {
+        "description": "Link choice (replacement dict)",
+        "message": "Identify using Fido"
+    },
+    "Identify using Siegfried": {
+        "description": "Link choice (replacement dict)",
+        "message": "Identify using Siegfried"
+    },
+    "Include default SIP processingMCP.xml": {
+        "description": "Link description",
+        "message": "Include default SIP processingMCP.xml"
+    },
+    "Include default Transfer processingMCP.xml": {
+        "description": "Link description",
+        "message": "Include default Transfer processingMCP.xml"
+    },
+    "Index AIP": {
+        "description": "Link description",
+        "message": "Index AIP"
+    },
+    "Index transfer contents": {
+        "description": "Link description",
+        "message": "Index transfer contents"
+    },
+    "Is maildir AIP": {
+        "description": "Link description",
+        "message": "Is maildir AIP"
+    },
+    "Load Dublin Core metadata from disk": {
+        "description": "Link description",
+        "message": "Load Dublin Core metadata from disk"
+    },
+    "Load labels from metadata/file_labels.csv": {
+        "description": "Link description",
+        "message": "Load labels from metadata/file_labels.csv"
+    },
+    "Load options to create SIPs": {
+        "description": "Link description",
+        "message": "Load options to create SIPs"
+    },
+    "Move access files to DIP": {
+        "description": "Link description",
+        "message": "Move access files to DIP"
+    },
+    "Move metadata to objects directory": {
+        "description": "Link description",
+        "message": "Move metadata to objects directory"
+    },
+    "Move submission documentation into objects directory": {
+        "description": "Link description",
+        "message": "Move submission documentation into objects directory"
+    },
+    "Move to SIP creation directory for completed transfers": {
+        "description": "Link description",
+        "message": "Move to SIP creation directory for completed transfers"
+    },
+    "Move to approve normalization directory": {
+        "description": "Link description",
+        "message": "Move to approve normalization directory"
+    },
+    "Move to compressionAIPDecisions directory": {
+        "description": "Link description",
+        "message": "Move to compressionAIPDecisions directory"
+    },
+    "Move to examine contents": {
+        "description": "Link description",
+        "message": "Move to examine contents"
+    },
+    "Move to extract packages": {
+        "description": "Link description",
+        "message": "Move to extract packages"
+    },
+    "Move to generate transfer tree": {
+        "description": "Link description",
+        "message": "Move to generate transfer tree"
+    },
+    "Move to metadata reminder": {
+        "description": "Link description",
+        "message": "Move to metadata reminder"
+    },
+    "Move to processing directory": {
+        "description": "Link description",
+        "message": "Move to processing directory"
+    },
+    "Move to quarantine": {
+        "description": "Link description",
+        "message": "Move to quarantine"
+    },
+    "Move to quarantined": {
+        "description": "Link description",
+        "message": "Move to quarantined"
+    },
+    "Move to select file ID tool": {
+        "description": "Link description",
+        "message": "Move to select file ID tool"
+    },
+    "Move to the failed directory": {
+        "description": "Link description",
+        "message": "Move to the failed directory"
+    },
+    "Move to the rejected directory": {
+        "description": "Link description",
+        "message": "Move to the rejected directory"
+    },
+    "Move to the store AIP approval directory": {
+        "description": "Link description",
+        "message": "Move to the store AIP approval directory"
+    },
+    "Move to the uploadedDIPs directory": {
+        "description": "Link description",
+        "message": "Move to the uploadedDIPs directory"
+    },
+    "Move to workFlowDecisions-quarantineSIP directory": {
+        "description": "Link description",
+        "message": "Move to workFlowDecisions-quarantineSIP directory"
+    },
+    "Move transfer back to activeTransfers directory": {
+        "description": "Chain description",
+        "message": "Move transfer back to activeTransfers directory"
+    },
+    "Move transfer back to activeTransfers directory.": {
+        "description": "Link description",
+        "message": "Move transfer back to activeTransfers directory."
+    },
+    "Move transfer to backlog": {
+        "description": "Link description",
+        "message": "Move transfer to backlog"
+    },
+    "No": {
+        "description": "Link choice (replacement dict)",
+        "message": "No"
+    },
+    "Normalization report": {
+        "description": "Link description",
+        "message": "Normalization report"
+    },
+    "Normalize": {
+        "description": "Link group",
+        "message": "Normalize"
+    },
+    "Normalize for access": {
+        "description": "Link description",
+        "message": "Normalize for access"
+    },
+    "Normalize for preservation": {
+        "description": "Link description",
+        "message": "Normalize for preservation"
+    },
+    "Normalize for preservation and access": {
+        "description": "Chain description",
+        "message": "Normalize for preservation and access"
+    },
+    "Normalize for thumbnails": {
+        "description": "Link description",
+        "message": "Normalize for thumbnails"
+    },
+    "Normalize manually": {
+        "description": "Chain description",
+        "message": "Normalize manually"
+    },
+    "Normalize service files for access": {
+        "description": "Link description",
+        "message": "Normalize service files for access"
+    },
+    "Normalize service files for thumbnails": {
+        "description": "Link description",
+        "message": "Normalize service files for thumbnails"
+    },
+    "Parallel bzip2": {
+        "description": "Link choice (replacement dict)",
+        "message": "Parallel bzip2"
+    },
+    "Parse external METS": {
+        "description": "Link description",
+        "message": "Parse external METS"
+    },
+    "Populate database with reingested AIP data": {
+        "description": "Link description",
+        "message": "Populate database with reingested AIP data"
+    },
+    "Pre-normalize identify file format": {
+        "description": "Chain description",
+        "message": "Pre-normalize identify file format"
+    },
+    "Pre-processing for DIP generation": {
+        "description": "Link description",
+        "message": "Pre-processing for DIP generation"
+    },
+    "Prepare AIC": {
+        "description": "Link group",
+        "message": "Prepare AIC"
+    },
+    "Prepare AIP": {
+        "description": "Link group",
+        "message": "Prepare AIP"
+    },
+    "Prepare DIP": {
+        "description": "Link group",
+        "message": "Prepare DIP"
+    },
+    "Process JSON metadata": {
+        "description": "Link description",
+        "message": "Process JSON metadata"
+    },
+    "Process manually normalized files": {
+        "description": "Link group",
+        "message": "Process manually normalized files"
+    },
+    "Process metadata directory": {
+        "description": "Link group",
+        "message": "Process metadata directory"
+    },
+    "Process submission documentation": {
+        "description": "Link group",
+        "message": "Process submission documentation"
+    },
+    "Process transfer JSON metadata": {
+        "description": "Link description",
+        "message": "Process transfer JSON metadata"
+    },
+    "Quarantine": {
+        "description": "Link group",
+        "message": "Quarantine"
+    },
+    "Redo": {
+        "description": "Chain description",
+        "message": "Redo"
+    },
+    "Reformat metadata files": {
+        "description": "Link group",
+        "message": "Reformat metadata files"
+    },
+    "Reingest AIP": {
+        "description": "Link group",
+        "message": "Reingest AIP"
+    },
+    "Reject": {
+        "description": "Chain description",
+        "message": "Reject"
+    },
+    "Reject AIP": {
+        "description": "Link group",
+        "message": "Reject AIP"
+    },
+    "Reject DIP": {
+        "description": "Link group",
+        "message": "Reject DIP"
+    },
+    "Reject SIP": {
+        "description": "Link group",
+        "message": "Reject SIP"
+    },
+    "Reject transfer": {
+        "description": "Link group",
+        "message": "Reject transfer"
+    },
+    "Relate manual normalized preservation files to the original files": {
+        "description": "Link description",
+        "message": "Relate manual normalized preservation files to the original files"
+    },
+    "Reminder: add metadata if desired": {
+        "description": "Link description",
+        "message": "Reminder: add metadata if desired"
+    },
+    "Remove bagged files": {
+        "description": "Link description",
+        "message": "Remove bagged files"
+    },
+    "Remove cache files": {
+        "description": "Link description",
+        "message": "Remove cache files"
+    },
+    "Remove empty manual normalization directories": {
+        "description": "Link description",
+        "message": "Remove empty manual normalization directories"
+    },
+    "Remove files without linking information (failed normalization artifacts etc.)": {
+        "description": "Link description",
+        "message": "Remove files without linking information (failed normalization artifacts etc.)"
+    },
+    "Remove from quarantine": {
+        "description": "Link description",
+        "message": "Remove from quarantine"
+    },
+    "Remove hidden files and directories": {
+        "description": "Link description",
+        "message": "Remove hidden files and directories"
+    },
+    "Remove preservation and access normalized files to renormalize.": {
+        "description": "Link description",
+        "message": "Remove preservation and access normalized files to renormalize."
+    },
+    "Remove preservation normalized files to renormalize.": {
+        "description": "Link description",
+        "message": "Remove preservation normalized files to renormalize."
+    },
+    "Remove the processing directory": {
+        "description": "Link description",
+        "message": "Remove the processing directory"
+    },
+    "Remove unneeded files": {
+        "description": "Link description",
+        "message": "Remove unneeded files"
+    },
+    "Removed bagged files": {
+        "description": "Link description",
+        "message": "Removed bagged files"
+    },
+    "Rename SIP directory with SIP UUID": {
+        "description": "Link description",
+        "message": "Rename SIP directory with SIP UUID"
+    },
+    "Rename with transfer UUID": {
+        "description": "Link group",
+        "message": "Rename with transfer UUID"
+    },
+    "Restructure DIP for CONTENTdm upload": {
+        "description": "Link description",
+        "message": "Restructure DIP for CONTENTdm upload"
+    },
+    "Restructure TRIM for compliance": {
+        "description": "Link description",
+        "message": "Restructure TRIM for compliance"
+    },
+    "Restructure from bag AIP to SIP directory format": {
+        "description": "Link description",
+        "message": "Restructure from bag AIP to SIP directory format"
+    },
+    "Resume after normalization file identification tool selected.": {
+        "description": "Link description",
+        "message": "Resume after normalization file identification tool selected."
+    },
+    "Retrieve AIP Storage Locations": {
+        "description": "Link description",
+        "message": "Retrieve AIP Storage Locations"
+    },
+    "Retrieve DIP Storage Locations": {
+        "description": "Link description",
+        "message": "Retrieve DIP Storage Locations"
+    },
+    "Run FITS on manual normalized preservation files": {
+        "description": "Link description",
+        "message": "Run FITS on manual normalized preservation files"
+    },
+    "SIP Creation": {
+        "description": "Chain description",
+        "message": "SIP Creation"
+    },
+    "SIP Creation complete": {
+        "description": "Chain description",
+        "message": "SIP Creation complete"
+    },
+    "Sanitize SIP name": {
+        "description": "Link description",
+        "message": "Sanitize SIP name"
+    },
+    "Sanitize Transfer name": {
+        "description": "Link description",
+        "message": "Sanitize Transfer name"
+    },
+    "Sanitize extracted objects' file and directory names": {
+        "description": "Link description",
+        "message": "Sanitize extracted objects' file and directory names"
+    },
+    "Sanitize file and directory names in metadata": {
+        "description": "Link description",
+        "message": "Sanitize file and directory names in metadata"
+    },
+    "Sanitize file and directory names in submission documentation": {
+        "description": "Link description",
+        "message": "Sanitize file and directory names in submission documentation"
+    },
+    "Sanitize object's file and directory names": {
+        "description": "Link description",
+        "message": "Sanitize object's file and directory names"
+    },
+    "Save directory tree": {
+        "description": "Link description",
+        "message": "Save directory tree"
+    },
+    "Scan for viruses": {
+        "description": "Link group",
+        "message": "Scan for viruses"
+    },
+    "Scan for viruses in metadata": {
+        "description": "Link description",
+        "message": "Scan for viruses in metadata"
+    },
+    "Scan for viruses in submission documentation": {
+        "description": "Link description",
+        "message": "Scan for viruses in submission documentation"
+    },
+    "Scan for viruses on extracted files": {
+        "description": "Link description",
+        "message": "Scan for viruses on extracted files"
+    },
+    "Select compression algorithm": {
+        "description": "Link description",
+        "message": "Select compression algorithm"
+    },
+    "Select compression level": {
+        "description": "Link description",
+        "message": "Select compression level"
+    },
+    "Select file format identification command": {
+        "description": "Link description",
+        "message": "Select file format identification command"
+    },
+    "Select pre-normalize file format identification command": {
+        "description": "Link description",
+        "message": "Select pre-normalize file format identification command"
+    },
+    "Send to backlog": {
+        "description": "Chain description",
+        "message": "Send to backlog"
+    },
+    "Serialize Dublin Core metadata to disk": {
+        "description": "Link description",
+        "message": "Serialize Dublin Core metadata to disk"
+    },
+    "Set TRIM options to create SIPs": {
+        "description": "Link description",
+        "message": "Set TRIM options to create SIPs"
+    },
+    "Set bag file permissions": {
+        "description": "Link description",
+        "message": "Set bag file permissions"
+    },
+    "Set file group use and fileIDs for maildir AIP": {
+        "description": "Link description",
+        "message": "Set file group use and fileIDs for maildir AIP"
+    },
+    "Set file permissions": {
+        "description": "Link description",
+        "message": "Set file permissions"
+    },
+    "Set files to identify": {
+        "description": "Link description",
+        "message": "Set files to identify"
+    },
+    "Set files to normalize": {
+        "description": "Link description",
+        "message": "Set files to normalize"
+    },
+    "Set quarantine permissions on transfer": {
+        "description": "Link description",
+        "message": "Set quarantine permissions on transfer"
+    },
+    "Set remove preservation and access normalized files to renormalize link.": {
+        "description": "Link description",
+        "message": "Set remove preservation and access normalized files to renormalize link."
+    },
+    "Set remove preservation normalized files to renormalize link.": {
+        "description": "Link description",
+        "message": "Set remove preservation normalized files to renormalize link."
+    },
+    "Set specialized processing link": {
+        "description": "Link description",
+        "message": "Set specialized processing link"
+    },
+    "Set transfer type: DSpace": {
+        "description": "Link description",
+        "message": "Set transfer type: DSpace"
+    },
+    "Set transfer type: Maildir": {
+        "description": "Link description",
+        "message": "Set transfer type: Maildir"
+    },
+    "Set transfer type: Standard": {
+        "description": "Link description",
+        "message": "Set transfer type: Standard"
+    },
+    "Set transfer type: TRIM": {
+        "description": "Link description",
+        "message": "Set transfer type: TRIM"
+    },
+    "Set unquarantined file permissions on Transfer": {
+        "description": "Link description",
+        "message": "Set unquarantined file permissions on Transfer"
+    },
+    "Skip File Identification": {
+        "description": "Link choice (replacement dict)",
+        "message": "Skip File Identification"
+    },
+    "Skip examine contents": {
+        "description": "Chain description",
+        "message": "Skip examine contents"
+    },
+    "Skip quarantine": {
+        "description": "Chain description",
+        "message": "Skip quarantine"
+    },
+    "Store AIP": {
+        "description": "Link group",
+        "message": "Store AIP"
+    },
+    "Store AIP location": {
+        "description": "Link description",
+        "message": "Store AIP location"
+    },
+    "Store DIP": {
+        "description": "Link description",
+        "message": "Store DIP"
+    },
+    "Store DIP location": {
+        "description": "Link description",
+        "message": "Store DIP location"
+    },
+    "Store DIP?": {
+        "description": "Link description",
+        "message": "Store DIP?"
+    },
+    "Store the AIP": {
+        "description": "Link description",
+        "message": "Store the AIP"
+    },
+    "TRIM Ingest": {
+        "description": "Chain description",
+        "message": "TRIM Ingest"
+    },
+    "TRIM transfer": {
+        "description": "Link group",
+        "message": "TRIM transfer"
+    },
+    "Transcribe": {
+        "description": "Link description",
+        "message": "Transcribe"
+    },
+    "Transcribe SIP contents": {
+        "description": "Link description",
+        "message": "Transcribe SIP contents"
+    },
+    "Transfers In progress": {
+        "description": "Chain description",
+        "message": "Transfers In progress"
+    },
+    "Uncompressed": {
+        "description": "Link choice (replacement dict)",
+        "message": "Uncompressed"
+    },
+    "Unquarantine": {
+        "description": "Chain description",
+        "message": "Unquarantine"
+    },
+    "Update METS.xml document": {
+        "description": "Link group",
+        "message": "Update METS.xml document"
+    },
+    "Upload DIP": {
+        "description": "Link group",
+        "message": "Upload DIP"
+    },
+    "Upload DIP to ArchivesSpace": {
+        "description": "Chain description",
+        "message": "Upload DIP to ArchivesSpace"
+    },
+    "Upload DIP to Archivists Toolkit": {
+        "description": "Chain description",
+        "message": "Upload DIP to Archivists Toolkit"
+    },
+    "Upload DIP to AtoM": {
+        "description": "Chain description",
+        "message": "Upload DIP to AtoM"
+    },
+    "Upload DIP to CONTENTdm": {
+        "description": "Chain description",
+        "message": "Upload DIP to CONTENTdm"
+    },
+    "Upload to ArchivesSpace": {
+        "description": "Link description",
+        "message": "Upload to ArchivesSpace"
+    },
+    "Upload to Archivists Toolkit": {
+        "description": "Link description",
+        "message": "Upload to Archivists Toolkit"
+    },
+    "Use existing data": {
+        "description": "Link choice (replacement dict)",
+        "message": "Use existing data"
+    },
+    "Validate formats": {
+        "description": "Link description",
+        "message": "Validate formats"
+    },
+    "Validation": {
+        "description": "Link group",
+        "message": "Validation"
+    },
+    "Verify AIP": {
+        "description": "Link description",
+        "message": "Verify AIP"
+    },
+    "Verify SIP compliance": {
+        "description": "Link group",
+        "message": "Verify SIP compliance"
+    },
+    "Verify TRIM checksums": {
+        "description": "Link description",
+        "message": "Verify TRIM checksums"
+    },
+    "Verify TRIM manifest": {
+        "description": "Link description",
+        "message": "Verify TRIM manifest"
+    },
+    "Verify bag, and restructure for compliance": {
+        "description": "Link description",
+        "message": "Verify bag, and restructure for compliance"
+    },
+    "Verify checksums": {
+        "description": "Link group",
+        "message": "Verify checksums"
+    },
+    "Verify checksums generated on ingest": {
+        "description": "Link description",
+        "message": "Verify checksums generated on ingest"
+    },
+    "Verify checksums in fileSec of DSpace METS files": {
+        "description": "Link description",
+        "message": "Verify checksums in fileSec of DSpace METS files"
+    },
+    "Verify metadata directory checksums": {
+        "description": "Link description",
+        "message": "Verify metadata directory checksums"
+    },
+    "Verify mets_structmap.xml compliance": {
+        "description": "Link description",
+        "message": "Verify mets_structmap.xml compliance"
+    },
+    "Verify transfer checksum": {
+        "description": "Link group",
+        "message": "Verify transfer checksum"
+    },
+    "Verify transfer checksums": {
+        "description": "Link group",
+        "message": "Verify transfer checksums"
+    },
+    "Verify transfer compliance": {
+        "description": "Link group",
+        "message": "Verify transfer compliance"
+    },
+    "Workflow decision - send transfer to quarantine": {
+        "description": "Link description",
+        "message": "Workflow decision - send transfer to quarantine"
+    },
+    "Yes": {
+        "description": "Link choice (replacement dict)",
+        "message": "Yes"
+    },
+    "approveNormalization": {
+        "description": "Chain description",
+        "message": "approveNormalization"
+    },
+    "baggitDirectory Transfers In progress": {
+        "description": "Chain description",
+        "message": "baggitDirectory Transfers In progress"
+    },
+    "baggitZippedFile Transfers In progress": {
+        "description": "Chain description",
+        "message": "baggitZippedFile Transfers In progress"
+    },
+    "quarantineSIP ?": {
+        "description": "Chain description",
+        "message": "quarantineSIP ?"
+    },
+    "storeAIP": {
+        "description": "Chain description",
+        "message": "storeAIP"
+    },
+    "uploadDIP": {
+        "description": "Chain description",
+        "message": "uploadDIP"
+    }
+}
