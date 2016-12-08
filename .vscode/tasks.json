@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "sh",
+    "isShellCommand": false,
+    "args": [
+        "-c"
+    ],
+    "showOutput": "always",
+    "suppressTaskName": false,
+    "tasks": [
+        {
+            "taskName": "govendor install +local && echo OK",
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "govendor test +local && echo OK",
+            "isTestCommand": true
+        },
+        {
+            "taskName": "govendor list +local"
+        },
+        {
+            "taskName": "govendor list +vendor"
+        },
+        {
+            "taskName": "./scripts/proto.sh && echo OK"
+        },
+        {
+            "taskName": "./scripts/build.sh && echo OK"
+        },
+        {
+            "taskName": "./scripts/build.sh --current && echo OK"
+        }
+    ]
+}

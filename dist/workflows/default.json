@@ -677,6 +677,7 @@
                             "es": "5 - modo de compresión normal",
                             "fr": "5 - normal compression mode"
                         },
+                        "id": "414da421-b83f-4648-895f-a34840e3c3f5",
                         "items": {
                             "AIPCompressionLevel": "5"
                         }
@@ -687,6 +688,7 @@
                             "es": "7 - maximum compression",
                             "fr": "7 - maximum compression"
                         },
+                        "id": "4e31f579-68bd-4be1-a10e-ec5411897121",
                         "items": {
                             "AIPCompressionLevel": "7"
                         }
@@ -697,6 +699,7 @@
                             "es": "9 - ultra compression",
                             "fr": "9 - ultra compression"
                         },
+                        "id": "6d52fd24-8c06-4c8e-997a-e427ba0acc36",
                         "items": {
                             "AIPCompressionLevel": "9"
                         }
@@ -707,6 +710,7 @@
                             "es": "3 - mode de compresión rápido",
                             "fr": "3 - fast compression mode"
                         },
+                        "id": "85b2243e-ff97-4ca8-80e8-3c6b0842b360",
                         "items": {
                             "AIPCompressionLevel": "3"
                         }
@@ -717,6 +721,7 @@
                             "es": "1 - el modo más rápido",
                             "fr": "1 - fastest mode"
                         },
+                        "id": "ecfad581-b007-4612-a0e0-fcc551f4057f",
                         "items": {
                             "AIPCompressionLevel": "1"
                         }
@@ -753,6 +758,7 @@
                             "es": "7z using bzip2",
                             "fr": "7z using bzip2"
                         },
+                        "id": "9475447c-9889-430c-9477-6287a9574c5b",
                         "items": {
                             "AIPCompressionAlgorithm": "7z-bzip2"
                         }
@@ -763,6 +769,7 @@
                             "es": "7z using lzma",
                             "fr": "7z using lzma"
                         },
+                        "id": "c96353b9-0d55-46cf-baa0-d7c3e180dd43",
                         "items": {
                             "AIPCompressionAlgorithm": "7z-lzma"
                         }
@@ -773,6 +780,7 @@
                             "es": "Uncompressed",
                             "fr": "Uncompressed"
                         },
+                        "id": "dc04c4c0-07ea-4796-b643-66d967ed33a4",
                         "items": {
                             "AIPCompressionAlgorithm": "None-"
                         }
@@ -783,6 +791,7 @@
                             "es": "Parallel bzip2",
                             "fr": "Parallel bzip2"
                         },
+                        "id": "f61b00a1-ef2e-4dc4-9391-111c6f42b9a7",
                         "items": {
                             "AIPCompressionAlgorithm": "pbzip2-"
                         }
@@ -1007,6 +1016,7 @@
                             "es": "Identify using Siegfried",
                             "fr": "Identify using Siegfried"
                         },
+                        "id": "25a91595-37f0-4373-a89a-56a757353fb8",
                         "items": {
                             "IDCommand": "9d2cefc1-2bd2-44e4-8d55-6cf8151eecff"
                         }
@@ -1017,28 +1027,9 @@
                             "es": "Identify using Fido",
                             "fr": "Identify using Fido"
                         },
-                        "items": {
-                            "IDCommand": "1c7dd02f-dfd8-46cb-af68-5b305aea1d6e"
-                        }
-                    },
-                    {
-                        "description": {
-                            "en": "Identify using Fido",
-                            "es": "Identify using Fido",
-                            "fr": "Identify using Fido"
-                        },
+                        "id": "6f9bfd67-f598-400a-aa2e-12b2657962fc",
                         "items": {
                             "IDCommand": "a8e45bc1-eb35-4545-885c-dd552f1fde9a"
-                        }
-                    },
-                    {
-                        "description": {
-                            "en": "Skip File Identification",
-                            "es": "Skip File Identification",
-                            "fr": "Skip File Identification"
-                        },
-                        "items": {
-                            "IDCommand": "None"
                         }
                     },
                     {
@@ -1047,8 +1038,20 @@
                             "es": "Identify by File Extension",
                             "fr": "Identify by File Extension"
                         },
+                        "id": "724b17a2-668b-4ef6-9f3b-860d8dfcbb29",
                         "items": {
                             "IDCommand": "41efbe1b-3fc7-4b24-9290-d0fb5d0ea9e9"
+                        }
+                    },
+                    {
+                        "description": {
+                            "en": "Skip File Identification",
+                            "es": "Skip File Identification",
+                            "fr": "Skip File Identification"
+                        },
+                        "id": "782bbf56-e220-48b5-9eb6-6610583f2072",
+                        "items": {
+                            "IDCommand": "None"
                         }
                     }
                 ]
@@ -3394,7 +3397,7 @@
                 "execute": "createEvent_v0.0",
                 "filter_file_end": null,
                 "filter_file_start": null,
-                "filter_subdir": "objects",
+                "filter_subdir": null,
                 "requires_output_lock": false,
                 "stderr_file": null,
                 "stdout_file": null
@@ -5690,6 +5693,7 @@
                             "es": "No",
                             "fr": "Non"
                         },
+                        "id": "1170e555-cd4e-4b2f-a3d6-bfb09e8fcc53",
                         "items": {
                             "transcribe": "False"
                         }
@@ -5700,6 +5704,7 @@
                             "es": "Sí",
                             "fr": "Oui"
                         },
+                        "id": "5a9985d3-ce7e-4710-85c1-f74696770fa9",
                         "items": {
                             "transcribe": "True"
                         }
@@ -6039,6 +6044,7 @@
                             "es": "Use existing data",
                             "fr": "Use existing data"
                         },
+                        "id": "3c1faec7-7e1e-4cdd-b3bd-e2f05f4baa9b",
                         "items": {
                             "IDCommand": "None"
                         }
@@ -6049,6 +6055,7 @@
                             "es": "Identify using Fido",
                             "fr": "Identify using Fido"
                         },
+                        "id": "56345ae4-08d1-42df-a2f9-9ba37689d9c3",
                         "items": {
                             "IDCommand": "a8e45bc1-eb35-4545-885c-dd552f1fde9a"
                         }
@@ -6059,18 +6066,9 @@
                             "es": "Identify using Siegfried",
                             "fr": "Identify using Siegfried"
                         },
+                        "id": "664cbde3-e658-4288-87db-bd28266d83f5",
                         "items": {
                             "IDCommand": "9d2cefc1-2bd2-44e4-8d55-6cf8151eecff"
-                        }
-                    },
-                    {
-                        "description": {
-                            "en": "Identify using Fido",
-                            "es": "Identify using Fido",
-                            "fr": "Identify using Fido"
-                        },
-                        "items": {
-                            "IDCommand": "1c7dd02f-dfd8-46cb-af68-5b305aea1d6e"
                         }
                     },
                     {
@@ -6079,6 +6077,7 @@
                             "es": "Identify by File Extension",
                             "fr": "Identify by File Extension"
                         },
+                        "id": "93a4d4ee-d974-4d81-8fc7-af135f1836d3",
                         "items": {
                             "IDCommand": "41efbe1b-3fc7-4b24-9290-d0fb5d0ea9e9"
                         }
@@ -10708,16 +10707,7 @@
                             "es": "Identify using Fido",
                             "fr": "Identify using Fido"
                         },
-                        "items": {
-                            "IDCommand": "1c7dd02f-dfd8-46cb-af68-5b305aea1d6e"
-                        }
-                    },
-                    {
-                        "description": {
-                            "en": "Identify using Fido",
-                            "es": "Identify using Fido",
-                            "fr": "Identify using Fido"
-                        },
+                        "id": "0db6372b-f507-4db0-9993-e745044a69f9",
                         "items": {
                             "IDCommand": "a8e45bc1-eb35-4545-885c-dd552f1fde9a"
                         }
@@ -10728,6 +10718,7 @@
                             "es": "Skip File Identification",
                             "fr": "Skip File Identification"
                         },
+                        "id": "1f77af0a-2f7a-468f-af8c-653a9e61ca4f",
                         "items": {
                             "IDCommand": "None"
                         }
@@ -10738,6 +10729,7 @@
                             "es": "Identify using Siegfried",
                             "fr": "Identify using Siegfried"
                         },
+                        "id": "bed4eeb1-d654-4d97-b98d-40eb51d3d4bb",
                         "items": {
                             "IDCommand": "9d2cefc1-2bd2-44e4-8d55-6cf8151eecff"
                         }
@@ -10748,6 +10740,7 @@
                             "es": "Identify by File Extension",
                             "fr": "Identify by File Extension"
                         },
+                        "id": "e2dc96b2-eff5-432c-9e7c-66d7f02267da",
                         "items": {
                             "IDCommand": "41efbe1b-3fc7-4b24-9290-d0fb5d0ea9e9"
                         }
@@ -10848,6 +10841,7 @@
                             "es": "No",
                             "fr": "Non"
                         },
+                        "id": "72e8443e-a8eb-49a8-ba5f-76d52f960bde",
                         "items": {
                             "DeletePackage": "False"
                         }
@@ -10858,6 +10852,7 @@
                             "es": "Sí",
                             "fr": "Oui"
                         },
+                        "id": "85b1e45d-8f98-4cae-8336-72f40e12cbef",
                         "items": {
                             "DeletePackage": "True"
                         }
