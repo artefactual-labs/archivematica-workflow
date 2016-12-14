@@ -30,7 +30,7 @@ func main() {
 		if version.VERSION == "" {
 			fmt.Fprintln(os.Stdout, "archivematica-workflow-cli (unknown version)")
 		} else {
-			fmt.Fprintf(os.Stdout, "archivematica-workflow-cli v%s\n", version.VERSION)
+			fmt.Fprintf(os.Stdout, "archivematica-workflow-cli %s\n", version.VERSION)
 		}
 		os.Exit(1)
 	}

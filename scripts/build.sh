@@ -18,10 +18,7 @@ cd ${__root}
 # Full list: `go tool dist list`
 BUILDS=(
   'darwin/amd64'
-  'freebsd/amd64'
   'linux/amd64'
-  'linux/arm'
-  'linux/arm64'
   'windows/amd64'
 )
 
@@ -30,8 +27,6 @@ if [ ! -z ${1+x} ]; then
     eval $(go tool dist env | grep GOOS)
     eval $(go tool dist env | grep GOARCH)
     BUILDS=("${GOOS}/${GOARCH}")
-  elif [ "${1}" == '--linux-amd64' ]; then
-    BUILDS=("linux/amd64")
   fi
 fi
 
