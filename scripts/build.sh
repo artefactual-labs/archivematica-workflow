@@ -18,11 +18,10 @@ cd ${__root}
 # Full list: `go tool dist list`
 BUILDS=(
   'darwin/amd64'
-  'linux/386'
+  'freebsd/amd64'
   'linux/amd64'
   'linux/arm'
   'linux/arm64'
-  'windows/386'
   'windows/amd64'
 )
 
@@ -36,24 +35,22 @@ if [ ! -z ${1+x} ]; then
   fi
 fi
 
-for BUILD in "${BUILDS[@]}"; do
-   IFS='/' read -ra BUILD <<< "$BUILD"
-   goos=${BUILD[0]}
-   goarch=${BUILD[1]}
+function build_binary {
+  name="${1}"
+  version="${2}"
+  pkg="./cmd/${name}"
+  for BUILD in "${BUILDS[@]}"; do
+    IFS='/' read -ra BUILD <<< "$BUILD"
+    goos=${BUILD[0]}
+    goarch=${BUILD[1]}
+    bin="${name}-${version}-${goos}-${goarch}"
+    echo "Building ${bin} binary..."
+    env CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build -ldflags="-X github.com/artefactual-labs/archivematica-workflow/pkg/version.VERSION=${version}" -o ${bin_dir}/${bin} ${pkg}
+  done
+}
 
-   exe="archivematica-workflow-${goos}-${goarch}"
-   pkg="./cmd/archivematica-workflow"
-   echo "Building ${exe} binary..."
-   env CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build -o ${bin_dir}/${exe} ${pkg}
-done
+echo "Finding git tag..."
+version=`git describe --tags`
 
-for BUILD in "${BUILDS[@]}"; do
-   IFS='/' read -ra BUILD <<< "$BUILD"
-   goos=${BUILD[0]}
-   goarch=${BUILD[1]}
-
-   exe="archivematica-workflow-cli-${goos}-${goarch}"
-   pkg="./cmd/archivematica-workflow-cli"
-   echo "Building ${exe} binary..."
-   env CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build -o ${bin_dir}/${exe} ${pkg}
-done
+build_binary "archivematica-workflow" ${version}
+build_binary "archivematica-workflow-cli" ${version}

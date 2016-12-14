@@ -1,3 +1,4 @@
 package version
 
-var VERSION = "UNKNOWN"
+// VERSION of archivematica-workflow
+var VERSION = ""

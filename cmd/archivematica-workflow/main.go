@@ -33,7 +33,11 @@ func main() {
 	flag.Parse()
 
 	if *printVersion {
-		fmt.Fprintf(os.Stdout, "archivematica-workflow v%s\n", version.VERSION)
+		if version.VERSION == "" {
+			fmt.Fprintln(os.Stdout, "archivematica-workflow (unknown version)")
+		} else {
+			fmt.Fprintf(os.Stdout, "archivematica-workflow v%s\n", version.VERSION)
+		}
 		os.Exit(1)
 	}
 
