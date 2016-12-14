@@ -1,4 +1,4 @@
-# archivematica-workflow
+# archivematica-workflow [![Go Report Card](https://goreportcard.com/badge/artefactual-labs/archivematica-workflow)](https://goreportcard.com/report/artefactual-labs/archivematica-workflow)
 
 **archivematica-workflow** is a lightweight service part of Archivematica used to distribute Archivematica workflows and make them available over the network.
 
