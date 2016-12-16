@@ -43,6 +43,7 @@ message WatchedDirectory {
 message Chain {
     map<string, string> description = 1;
     string linkId = 2;
+    string id = 3;
 }
 
 message Link {
@@ -102,4 +103,5 @@ message Link {
     string fallbackLinkId = 4;
     repeated LinkExitCode exitCodes = 5;
     LinkConfig config = 6;
+    string id = 7;
 }

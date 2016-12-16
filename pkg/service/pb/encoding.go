@@ -32,6 +32,7 @@ func (w *WorkflowData) UnmarshalJSON(data []byte) error {
 	w.Chains = make(map[string]*Chain)
 	for key, value := range jwd.Chains {
 		c := Chain{
+			Id:          key,
 			LinkId:      value.LinkID,
 			Description: i18NFromJSONtoProto(value.Description),
 		}
@@ -41,10 +42,11 @@ func (w *WorkflowData) UnmarshalJSON(data []byte) error {
 	w.Links = make(map[string]*Link)
 	for key, value := range jwd.Links {
 		l := Link{
+			Id:                key,
 			Description:       i18NFromJSONtoProto(value.Description),
 			Group:             i18NFromJSONtoProto(value.Group),
 			FallbackLinkId:    value.FallbackLinkID,
-			FallbackJobStatus: Job_Status(Job_Status_value[value.FallbackJobStatus]),
+			FallbackJobStatus: jobStatusFromJSONtoProto(value.FallbackJobStatus),
 		}
 		l.Config, err = linkConfigFromJSONToProto(value.Config)
 		if err != nil {
@@ -53,7 +55,7 @@ func (w *WorkflowData) UnmarshalJSON(data []byte) error {
 		for code, props := range value.ExitCodes {
 			lec := Link_LinkExitCode{
 				Code:      uint32(code),
-				JobStatus: Job_Status(Job_Status_value[props.JobStatus]),
+				JobStatus: jobStatusFromJSONtoProto(props.JobStatus),
 				LinkId:    props.LinkID,
 			}
 			l.ExitCodes = append(l.ExitCodes, &lec)
@@ -176,4 +178,20 @@ func linkConfigFromJSONToProto(config *pbjson.LinkConfig) (*Link_LinkConfig, err
 		return nil, fmt.Errorf("LinkConfigFromJSONToProto: unknown model=%v manager=%v", l.Model, l.Manager)
 	}
 	return &l, nil
+}
+
+var ss = map[string]Job_Status{
+	"Unknown":                Job_UNKNOWN,
+	"Awaiting decision":      Job_AWAITING_DECISION,
+	"Completed successfully": Job_COMPLETED_SUCCESSFULLY,
+	"Executing commands":     Job_EXECUTING_COMMANDS,
+	"Failed":                 Job_FAILED,
+}
+
+func jobStatusFromJSONtoProto(jobStatus string) Job_Status {
+	s, ok := ss[jobStatus]
+	if !ok {
+		return Job_UNKNOWN
+	}
+	return s
 }
