@@ -1,4 +1,4 @@
-# archivematica-workflow [![Travis CI](https://travis-ci.org/artefactual-labs/archivematica-workflow.svg?branch=master)](https://travis-ci.org/artefactual-labs/archivematica-workflow) [![Go Report Card](https://goreportcard.com/badge/artefactual-labs/archivematica-workflow)](https://goreportcard.com/report/artefactual-labs/archivematica-workflow)
+# archivematica-workflow [![Travis CI](https://travis-ci.org/artefactual-labs/archivematica-workflow.svg?branch=master)](https://travis-ci.org/artefactual-labs/archivematica-workflow) [![Coverage Status](https://coveralls.io/repos/artefactual-labs/archivematica-workflow/badge.svg?branch=master&service=github)](https://coveralls.io/github/artefactual-labs/archivematica-workflow?branch=master) [![Go Report Card](https://goreportcard.com/badge/artefactual-labs/archivematica-workflow)](https://goreportcard.com/report/artefactual-labs/archivematica-workflow)
 
 **archivematica-workflow** is a lightweight service part of Archivematica used to distribute Archivematica workflows and make them available over the network.
 

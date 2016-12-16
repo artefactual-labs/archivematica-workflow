@@ -6,8 +6,8 @@ go:
 os:
   - linux
 install:
-  - go get -u github.com/kardianos/govendor
-  - go install github.com/kardianos/govendor
+  - go get github.com/mattn/goveralls
+  - go get github.com/kardianos/govendor
 script:
-  - govendor test +local
+  - $HOME/gopath/bin/goveralls -service=travis-ci
   - govendor test -race +local
