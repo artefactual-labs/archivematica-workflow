@@ -48,7 +48,7 @@ func main() {
 		logger = log.NewContext(logger).With("ts", log.DefaultTimestampUTC)
 		logger = log.NewContext(logger).With("caller", log.DefaultCaller)
 	}
-	logger.Log("msg", "Hello!", "debugAddr", debugAddr, "grpcAddr", grpcAddr, "httpAddr", httpAddr)
+	logger.Log("msg", "Hello!", "version", version.VERSION, "debugAddr", debugAddr, "grpcAddr", grpcAddr, "httpAddr", httpAddr)
 	defer logger.Log("msg", "Goodbye!")
 
 	// Business domain.
