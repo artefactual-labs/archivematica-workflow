@@ -1,0 +1,13 @@
+language: go
+sudo: required
+go:
+  - 1.7.4
+  - tip
+os:
+  - linux
+install:
+  - go get -u github.com/kardianos/govendor
+  - go install github.com/kardianos/govendor
+script:
+  - govendor test +local
+  - govendor test -race +local
