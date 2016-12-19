@@ -58,3 +58,8 @@ When `--locale-dir` is used, predicatably, `json-links` does the following thing
 - Populates the translation objects in `dist/workflows/default.json` using the translations available under the given directory. Make sure that the translations are up todate in advance with `tx pull -a`.
 
 Transifex is our localization platform. Workflow messages can be found at https://www.transifex.com/artefactual/archivematica/mcp-workflow/.
+
+## Deployment
+
+- [Ansible role](https://github.com/artefactual-labs/ansible-archivematica-workflow).
+- Docker image not available yet!
