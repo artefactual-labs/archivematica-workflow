@@ -4,14 +4,13 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"strings"
 	"text/tabwriter"
 	"time"
 
 	"github.com/go-kit/kit/log"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-
-	"strings"
 
 	grpcclient "github.com/artefactual-labs/archivematica-workflow/client/grpc"
 	"github.com/artefactual-labs/archivematica-workflow/service/pb"
