@@ -36,7 +36,6 @@ type LinkConfig struct {
 	Arguments          string `json:"arguments"`
 	Execute            string `json:"execute"`
 	FilterFileEnd      string `json:"filter_file_end"`
-	FilterFileStart    string `json:"filter_file_start"`
 	FilterSubdir       string `json:"filter_subdir"`
 	RequiresOutputLock bool   `json:"requires_output_lock"`
 	StderrFile         string `json:"stderr_file"`

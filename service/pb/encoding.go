@@ -126,7 +126,6 @@ func linkConfigFromJSONToProto(config *pbjson.LinkConfig) (*Link_LinkConfig, err
 			Arguments:          config.Arguments,
 			Execute:            config.Execute,
 			FilterFileEnd:      config.FilterFileEnd,
-			FilterFileStart:    config.FilterFileStart,
 			FilterSubdir:       config.FilterSubdir,
 			RequiresOutputLock: config.RequiresOutputLock,
 			StderrFile:         config.StderrFile,

@@ -57,11 +57,10 @@ message Link {
             string execute = 1;
             string arguments = 2;
             string filterSubdir = 3;
-            string filterFileStart = 4;
-            string filterFileEnd = 5;
-            string stdoutFile = 6;
-            string stderrFile = 7;
-            bool requiresOutputLock = 8;
+            string filterFileEnd = 4;
+            string stdoutFile = 5;
+            string stderrFile = 6;
+            bool requiresOutputLock = 7;
         }
         message UserChoice {
             repeated string chainIds = 1;
