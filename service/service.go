@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/go-kit/kit/log"
+	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 
 	"github.com/artefactual-labs/archivematica-workflow/service/dist"
@@ -14,6 +15,11 @@ import (
 type Service interface {
 	WorkflowGet(ctx context.Context, id string) (*pb.WorkflowData, error)
 }
+
+var (
+	// ErrNotFound is used when the workflow cannot be found.
+	ErrNotFound = errors.New("not found")
+)
 
 // New returns a basic Service with all of the expected middlewares wired in.
 func New(logger log.Logger) Service {
@@ -41,7 +47,7 @@ func (s basicService) WorkflowGet(_ context.Context, id string) (*pb.WorkflowDat
 	path := "workflows/" + id + ".json"
 	jsonBlob, err := dist.Asset(path)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrapf(ErrNotFound, "Cannot read file %s", path)
 	}
 	wfd := &pb.WorkflowData{}
 	err = json.Unmarshal(jsonBlob, wfd)

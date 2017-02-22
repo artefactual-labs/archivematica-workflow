@@ -73,6 +73,8 @@ type WorkflowGetRequest struct {
 
 // WorkflowGetResponse collects the response values for the WorkflowGet method.
 type WorkflowGetResponse struct {
-	Workflow *pb.WorkflowData
-	Err      error
+	Workflow *pb.WorkflowData `json:"workflow,omitempty"`
+	Err      error            `json:"err,omitempty"`
 }
+
+func (r WorkflowGetResponse) Error() error { return r.Err }
