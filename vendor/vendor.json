@@ -91,6 +91,14 @@
 			"revisionTime": "2016-04-24T11:30:07Z"
 		},
 		{
+			"checksumSHA1": "ynJSWoF6v+3zMnh9R0QmmG6iGV8=",
+			"path": "github.com/pkg/errors",
+			"revision": "645ef00459ed84a119197bfb8d8205042c6df63d",
+			"revisionTime": "2016-09-29T01:48:01Z",
+			"version": "=v0.8.0",
+			"versionExact": "v0.8.0"
+		},
+		{
 			"checksumSHA1": "/j0HRFJPThv7HEkZZ/gurf+5fQI=",
 			"path": "github.com/prometheus/client_golang/prometheus",
 			"revision": "575f371f7862609249a1be4c9145f429fe065e32",
