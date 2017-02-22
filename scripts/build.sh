@@ -41,7 +41,7 @@ function build_binary {
     bin="${name}-${version}-${goos}-${goarch}"
     tmpdir="$(mktemp -d)"
     echo "Building ${name}: version=${version} goos=${goos} goarch=${goarch}"
-    env CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build -ldflags="-X github.com/artefactual-labs/archivematica-workflow/pkg/version.VERSION=${version}" -o ${tmpdir}/${name} ${pkg}
+    env CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build -ldflags="-X github.com/artefactual-labs/archivematica-workflow/version.VERSION=${version}" -o ${tmpdir}/${name} ${pkg}
     env BZIP2=-1 tar -C ${tmpdir} -cjf ${bin_dir}/${name}-${goos}-${goarch}.tar.bz2 ${name}
     rm -rf ${tmpdir}
   done

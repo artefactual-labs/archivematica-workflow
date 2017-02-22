@@ -4,7 +4,7 @@ import (
 	"github.com/go-kit/kit/log"
 	"golang.org/x/net/context"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
 )
 
 // Middleware describes a service (as opposed to endpoint) middleware.

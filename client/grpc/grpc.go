@@ -5,10 +5,10 @@ import (
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 	"google.golang.org/grpc"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/endpoints"
-	grpcsvc "github.com/artefactual-labs/archivematica-workflow/pkg/grpc"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/endpoints"
+	grpcsvc "github.com/artefactual-labs/archivematica-workflow/grpc"
+	"github.com/artefactual-labs/archivematica-workflow/service"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
 )
 
 // New returns a Service backed by a gRPC client connection. It is the

@@ -10,11 +10,11 @@ import (
 	"github.com/go-kit/kit/log"
 	"golang.org/x/net/context"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/service"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
 )
 
-// Endpoints collects all of the endpoints that compose an add service. It's
+// Endpoints collects all of the endpoints that compose the service. It's
 // meant to be used as a helper struct, to collect all of the endpoints into a
 // single parameter.
 //

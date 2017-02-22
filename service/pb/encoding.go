@@ -6,7 +6,7 @@ import (
 
 	"strings"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pbjson"
+	"github.com/artefactual-labs/archivematica-workflow/service/pbjson"
 )
 
 // UnmarshalJSON implements Unmarshaler. This method updates the current

@@ -6,8 +6,8 @@ import (
 	"github.com/go-kit/kit/log"
 	"golang.org/x/net/context"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/endpoints"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/endpoints"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 )
 

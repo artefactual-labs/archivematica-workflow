@@ -13,9 +13,9 @@ import (
 
 	"strings"
 
-	grpcclient "github.com/artefactual-labs/archivematica-workflow/pkg/client/grpc"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/version"
+	grpcclient "github.com/artefactual-labs/archivematica-workflow/client/grpc"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/version"
 )
 
 func main() {

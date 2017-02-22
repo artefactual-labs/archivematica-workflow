@@ -15,12 +15,12 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/endpoints"
-	grpctransport "github.com/artefactual-labs/archivematica-workflow/pkg/grpc"
-	httptransport "github.com/artefactual-labs/archivematica-workflow/pkg/http"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/version"
+	"github.com/artefactual-labs/archivematica-workflow/endpoints"
+	grpctransport "github.com/artefactual-labs/archivematica-workflow/grpc"
+	httptransport "github.com/artefactual-labs/archivematica-workflow/http"
+	"github.com/artefactual-labs/archivematica-workflow/service"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/version"
 )
 
 func main() {

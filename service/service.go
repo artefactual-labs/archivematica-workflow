@@ -6,8 +6,8 @@ import (
 	"github.com/go-kit/kit/log"
 	"golang.org/x/net/context"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/dist"
-	"github.com/artefactual-labs/archivematica-workflow/pkg/service/pb"
+	"github.com/artefactual-labs/archivematica-workflow/service/dist"
+	"github.com/artefactual-labs/archivematica-workflow/service/pb"
 )
 
 // Service provides operations on Archivematica workflows.

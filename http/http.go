@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/mux"
 	"golang.org/x/net/context"
 
-	"github.com/artefactual-labs/archivematica-workflow/pkg/endpoints"
+	"github.com/artefactual-labs/archivematica-workflow/endpoints"
 )
 
 var (

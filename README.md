@@ -59,7 +59,7 @@ The only currently available workflow is [`default.json`](dist/default.json). It
 
 Running the following command will generate new Go code with the contents of the [`dist`](dist/) directory embedded in binary format:
 
-    $ go generate ./pkg/service/dist
+    $ go generate ./service/dist
 
 The new code is checked in the repository so the application is "go gettable". In the future this step could be done as part of the build process.
 

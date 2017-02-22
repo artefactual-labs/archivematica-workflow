@@ -11,7 +11,7 @@ __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 proto_src="${__root}/proto"
-proto_pkg="${__root}/pkg/service/pb"
+proto_pkg="${__root}/service/pb"
 proto_gopathsrc="$(cd "$(dirname "${__root}/../../../../")" && pwd)"
 
 protoc --version >/dev/null 2>&1 || {
