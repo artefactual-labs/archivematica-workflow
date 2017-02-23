@@ -78,7 +78,7 @@ func encodeError(_ context.Context, err error, w http.ResponseWriter) {
 }
 
 func codeFrom(err error) int {
-	switch err {
+	switch errors.Cause(err) {
 	case service.ErrNotFound:
 		return http.StatusNotFound
 	default:
