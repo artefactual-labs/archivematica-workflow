@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"strings"
@@ -33,9 +31,6 @@ func TestWiring(t *testing.T) {
 	} {
 		req, _ := http.NewRequest(testcase.method, testcase.url, strings.NewReader(``))
 		resp, _ := http.DefaultClient.Do(req)
-
-		o, _ := ioutil.ReadAll(resp.Body)
-		fmt.Println(string(o))
 
 		if want, have := testcase.want, resp.StatusCode; want != have {
 			t.Errorf("%s %s: want=%d have=%d", testcase.method, testcase.url, want, have)
