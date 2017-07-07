@@ -76,11 +76,11 @@ message Link {
         message SetUnitVar {
             string variable = 1;
             string variableValue = 2;
-            string chainId = 3;
+            string linkId = 3;
         }
         message GetUnitVar {
             string variable = 1;
-            string chainId = 2;
+            string linkId = 2;
         }
         message Magic {
             string linkId = 1;

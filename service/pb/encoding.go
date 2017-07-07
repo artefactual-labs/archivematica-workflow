@@ -143,7 +143,7 @@ func linkConfigFromJSONToProto(config *pbjson.LinkConfig) (*Link_LinkConfig, err
 		attrs.SetUnitVar = &Link_LinkConfig_SetUnitVar{
 			Variable:      config.Variable,
 			VariableValue: config.VariableValue,
-			ChainId:       config.ChainID,
+			LinkId:        config.ChainID,
 		}
 		l.Attrs = attrs
 	} else if l.Model == "MicroServiceChoiceReplacementDic" {
@@ -161,7 +161,7 @@ func linkConfigFromJSONToProto(config *pbjson.LinkConfig) (*Link_LinkConfig, err
 	} else if l.Model == "TaskConfigUnitVariableLinkPull" {
 		attrs := &Link_LinkConfig_GetUnitVar_{}
 		attrs.GetUnitVar = &Link_LinkConfig_GetUnitVar{
-			ChainId:  config.ChainID,
+			LinkId:   config.ChainID,
 			Variable: config.Variable,
 		}
 		l.Attrs = attrs
