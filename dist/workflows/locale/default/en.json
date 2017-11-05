@@ -31,6 +31,10 @@
         "description": "Chain description",
         "message": "AIP reingest approval chain"
     },
+    "Add README file": {
+        "description": "Link description",
+        "message": "Add README file"
+    },
     "Add final metadata": {
         "description": "Link group",
         "message": "Add final metadata"
@@ -91,6 +95,14 @@
         "description": "Link description",
         "message": "Approve zipped bagit transfer"
     },
+    "Assign UUIDs to directories": {
+        "description": "Link description",
+        "message": "Assign UUIDs to directories"
+    },
+    "Assign UUIDs to directories?": {
+        "description": "Link description",
+        "message": "Assign UUIDs to directories?"
+    },
     "Assign UUIDs to manual normalized preservation files": {
         "description": "Link description",
         "message": "Assign UUIDs to manual normalized preservation files"
@@ -138,6 +150,18 @@
     "Automatic SIP Creation complete": {
         "description": "Chain description",
         "message": "Automatic SIP Creation complete"
+    },
+    "Bind PID": {
+        "description": "Link description",
+        "message": "Bind PID"
+    },
+    "Bind PIDs": {
+        "description": "Link group",
+        "message": "Bind PIDs"
+    },
+    "Bind PIDs?": {
+        "description": "Link description",
+        "message": "Bind PIDs?"
     },
     "Characterize and extract metadata": {
         "description": "Link group",
@@ -391,6 +415,10 @@
         "description": "Chain description",
         "message": "Do not store"
     },
+    "Do not upload DIP": {
+        "description": "Chain description",
+        "message": "Do not upload DIP"
+    },
     "Email fail report": {
         "description": "Link description",
         "message": "Email fail report"
@@ -491,6 +519,10 @@
         "description": "Link description",
         "message": "Grant normalization options for pre-existing DIP"
     },
+    "Handle unstored DIP": {
+        "description": "Link description",
+        "message": "Handle unstored DIP"
+    },
     "Identify DSpace files": {
         "description": "Link group",
         "message": "Identify DSpace files"
@@ -562,6 +594,10 @@
     "Load options to create SIPs": {
         "description": "Link description",
         "message": "Load options to create SIPs"
+    },
+    "Load rights": {
+        "description": "Link description",
+        "message": "Load rights"
     },
     "Move access files to DIP": {
         "description": "Link description",
@@ -698,6 +734,34 @@
     "Parse external METS": {
         "description": "Link description",
         "message": "Parse external METS"
+    },
+    "Perform policy checks on access derivatives?": {
+        "description": "Link description",
+        "message": "Perform policy checks on access derivatives?"
+    },
+    "Perform policy checks on originals?": {
+        "description": "Link description",
+        "message": "Perform policy checks on originals?"
+    },
+    "Perform policy checks on preservation derivatives?": {
+        "description": "Link description",
+        "message": "Perform policy checks on preservation derivatives?"
+    },
+    "Policy checks for access derivatives": {
+        "description": "Link description",
+        "message": "Policy checks for access derivatives"
+    },
+    "Policy checks for derivatives": {
+        "description": "Link group",
+        "message": "Policy checks for derivatives"
+    },
+    "Policy checks for originals": {
+        "description": "Link description",
+        "message": "Policy checks for originals"
+    },
+    "Policy checks for preservation derivatives": {
+        "description": "Link description",
+        "message": "Policy checks for preservation derivatives"
     },
     "Populate database with reingested AIP data": {
         "description": "Link description",
@@ -1035,6 +1099,10 @@
         "description": "Link description",
         "message": "Store DIP?"
     },
+    "Store file modification dates": {
+        "description": "Link description",
+        "message": "Store file modification dates"
+    },
     "Store the AIP": {
         "description": "Link description",
         "message": "Store the AIP"
@@ -1103,9 +1171,17 @@
         "description": "Link choice (replacement dict)",
         "message": "Use existing data"
     },
+    "Validate access derivatives": {
+        "description": "Link description",
+        "message": "Validate access derivatives"
+    },
     "Validate formats": {
         "description": "Link description",
         "message": "Validate formats"
+    },
+    "Validate preservation derivatives": {
+        "description": "Link description",
+        "message": "Validate preservation derivatives"
     },
     "Validation": {
         "description": "Link group",

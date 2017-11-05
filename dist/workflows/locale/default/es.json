@@ -4,7 +4,7 @@
         "description": "Link group"
     },
     "Assign checksums and file sizes to submissionDocumentation": {
-        "message": "Assign checksums and file sizes to submissionDocumentation",
+        "message": "Asignar sumas de verificación y tamaños de ficheros a la documentación de entrega",
         "description": "Link description"
     },
     "Verify TRIM checksums": {
@@ -12,11 +12,11 @@
         "description": "Link description"
     },
     "Delete package after extraction?": {
-        "message": "Delete package after extraction?",
+        "message": "¿Eliminar el paquete después de su extracción?",
         "description": "Link description"
     },
     "Process JSON metadata": {
-        "message": "Process JSON metadata",
+        "message": "Procesar metadatos JSON",
         "description": "Link description"
     },
     "Include default Transfer processingMCP.xml": {
@@ -48,7 +48,7 @@
         "description": "Link choice (replacement dict)"
     },
     "Create AIP Pointer File": {
-        "message": "Create AIP Pointer File",
+        "message": "Crear el fichero de referencia de AIP",
         "description": "Link description"
     },
     "Remove hidden files and directories": {
@@ -60,11 +60,11 @@
         "description": "Chain description"
     },
     "Do not normalize": {
-        "message": "Do not normalize",
+        "message": "No normalizar",
         "description": "Chain description"
     },
     "9 - ultra compression": {
-        "message": "9 - ultra compression",
+        "message": "9 - compresión ultra",
         "description": "Link choice (replacement dict)"
     },
     "Move to workFlowDecisions-quarantineSIP directory": {
@@ -72,7 +72,7 @@
         "description": "Link description"
     },
     "Check if AIP is a file or directory": {
-        "message": "Check if AIP is a file or directory",
+        "message": "Comprobar si el AIP es un fichero o un directorio",
         "description": "Link description"
     },
     "Continue": {
@@ -80,7 +80,7 @@
         "description": "Chain description"
     },
     "Normalize service files for access": {
-        "message": "Normalize service files for access",
+        "message": "Normalizar ficheros de servicio para acceso",
         "description": "Link description"
     },
     "Parse external METS": {
@@ -92,7 +92,7 @@
         "description": "Link group"
     },
     "Characterize and extract metadata on submission documentation": {
-        "message": "Characterize and extract metadata on submission documentation",
+        "message": "Caracterizar y extraer metadatos de la documentación de entrega",
         "description": "Link description"
     },
     "Reject DIP": {
@@ -104,11 +104,11 @@
         "description": "Link choice (replacement dict)"
     },
     "Quarantine": {
-        "message": "Quarantine",
+        "message": "Cuarentena",
         "description": "Link group"
     },
     "Choose Config for ArchivesSpace DIP Upload": {
-        "message": "Choose Config for ArchivesSpace DIP Upload",
+        "message": "Elegir configuración de ArchivesSpace",
         "description": "Link description"
     },
     "Approve standard transfer": {
@@ -120,7 +120,7 @@
         "description": "Link group"
     },
     "Create transfer metadata XML": {
-        "message": "Create transfer metadata XML",
+        "message": "Crear documento XML con metadatos de transferencia",
         "description": "Link description"
     },
     "Verify checksums": {
@@ -128,7 +128,7 @@
         "description": "Link group"
     },
     "Cleanup rejected transfer": {
-        "message": "Cleanup rejected transfer",
+        "message": "Eliminar transferencia rechazada",
         "description": "Link description"
     },
     "Set files to normalize": {
@@ -143,8 +143,12 @@
         "message": "Remove cache files",
         "description": "Link description"
     },
+    "Perform policy checks on originals?": {
+        "message": "Perform policy checks on originals?",
+        "description": "Link description"
+    },
     "Check transfer directory for objects": {
-        "message": "Check transfer directory for objects",
+        "message": "Comprobar objetos en el directorio de la transferencia",
         "description": "Link description"
     },
     "Redo": {
@@ -152,7 +156,7 @@
         "description": "Chain description"
     },
     "Copy submission documentation": {
-        "message": "Copy submission documentation",
+        "message": "Copiar documentación de entrega",
         "description": "Link description"
     },
     "Designate to process as a DSpace transfer": {
@@ -160,7 +164,7 @@
         "description": "Link description"
     },
     "Approve SIP Creation": {
-        "message": "Approve SIP Creation",
+        "message": "Aprobar creación de SIP",
         "description": "Link description"
     },
     "Sanitize SIP name": {
@@ -172,7 +176,7 @@
         "description": "Chain description"
     },
     "Copy transfer submission documentation": {
-        "message": "Copy transfer submission documentation",
+        "message": "Copiar documentación de entrega de la transferencia",
         "description": "Link description"
     },
     "Resume after normalization file identification tool selected.": {
@@ -192,7 +196,7 @@
         "description": "Link description"
     },
     "Reformat metadata files": {
-        "message": "Reformat metadata files",
+        "message": "Formatear de nuevo ficheros de metadatos",
         "description": "Link group"
     },
     "Set file group use and fileIDs for maildir AIP": {
@@ -212,7 +216,7 @@
         "description": "Link description"
     },
     "Characterize and extract metadata": {
-        "message": "Characterize and extract metadata",
+        "message": "Caracterizar y extraer metadatos",
         "description": "Link group"
     },
     "Move to processing directory": {
@@ -224,11 +228,11 @@
         "description": "Chain description"
     },
     "Is maildir AIP": {
-        "message": "Is maildir AIP",
+        "message": "Comprobar si el AIP es un maildir",
         "description": "Link description"
     },
     "Assign checksums and file sizes to metadata ": {
-        "message": "Assign checksums and file sizes to metadata ",
+        "message": "Asignar sumas de verificación y tamaños a los ficheros de metadatos",
         "description": "Link description"
     },
     "Workflow decision - send transfer to quarantine": {
@@ -240,7 +244,11 @@
         "description": "Link description"
     },
     "Move access files to DIP": {
-        "message": "Move access files to DIP",
+        "message": "Mover ficheros de acceso al DIP",
+        "description": "Link description"
+    },
+    "Add README file": {
+        "message": "Add README file",
         "description": "Link description"
     },
     "Restructure TRIM for compliance": {
@@ -250,6 +258,10 @@
     "Check for specialized processing": {
         "message": "Check for specialized processing",
         "description": "Link description"
+    },
+    "Do not upload DIP": {
+        "message": "Do not upload DIP",
+        "description": "Chain description"
     },
     "Prepare DIP": {
         "message": "Preparar DIP",
@@ -267,20 +279,28 @@
         "message": "Move to SIP creation directory for completed transfers",
         "description": "Link description"
     },
+    "Validate preservation derivatives": {
+        "message": "Validate preservation derivatives",
+        "description": "Link description"
+    },
     "Transfers In progress": {
         "message": "Transfers In progress",
         "description": "Chain description"
     },
     "Attempt restructure for compliance": {
-        "message": "Attempt restructure for compliance",
+        "message": "Intento de reestructuración para cumplimiento ",
         "description": "Link description"
     },
     "Prepare AIP": {
-        "message": "Prepare AIP",
+        "message": "Preparar AIP",
         "description": "Link group"
     },
+    "Perform policy checks on preservation derivatives?": {
+        "message": "Perform policy checks on preservation derivatives?",
+        "description": "Link description"
+    },
     "Cleanup failed Transfer": {
-        "message": "Cleanup failed Transfer",
+        "message": "Eliminar transferencia fallida",
         "description": "Link description"
     },
     "Set transfer type: DSpace": {
@@ -304,19 +324,19 @@
         "description": "Link description"
     },
     "Approve DSpace transfer": {
-        "message": "Approve DSpace transfer",
+        "message": "Aprobar transferencia DSpace",
         "description": "Link description"
     },
     "Create AIC": {
-        "message": "Create AIC",
+        "message": "Crear AIC",
         "description": "Chain description"
     },
     "Approve zipped bagit transfer": {
-        "message": "Approve zipped bagit transfer",
+        "message": "Aprobar transferencia de zipped bagit",
         "description": "Link description"
     },
     "Create SIPs from TRIM transfer containers": {
-        "message": "Create SIPs from TRIM transfer containers",
+        "message": "Crear SIP(s) a partir de los contendedores de transferencia TRIM",
         "description": "Link description"
     },
     "Move to extract packages": {
@@ -324,7 +344,7 @@
         "description": "Link description"
     },
     "Choose Config for Archivists Toolkit DIP Upload": {
-        "message": "Choose Config for Archivists Toolkit DIP Upload",
+        "message": "Elegir configuración de Archivists' Toolkit",
         "description": "Link description"
     },
     "Restructure DIP for CONTENTdm upload": {
@@ -332,7 +352,7 @@
         "description": "Link description"
     },
     "Determine if transfer still contains packages": {
-        "message": "Determine if transfer still contains packages",
+        "message": "Determinar si la transferencia todavía contiene paquetes",
         "description": "Link description"
     },
     "Set transfer type: Standard": {
@@ -340,7 +360,7 @@
         "description": "Link description"
     },
     "7z using lzma": {
-        "message": "7z using lzma",
+        "message": "7z usando lzma",
         "description": "Link choice (replacement dict)"
     },
     "Unquarantine": {
@@ -348,7 +368,7 @@
         "description": "Chain description"
     },
     "7z using bzip2": {
-        "message": "7z using bzip2",
+        "message": "7z usando bzip2",
         "description": "Link choice (replacement dict)"
     },
     "Upload DIP": {
@@ -375,6 +395,10 @@
         "message": "Save directory tree",
         "description": "Link description"
     },
+    "Policy checks for preservation derivatives": {
+        "message": "Policy checks for preservation derivatives",
+        "description": "Link description"
+    },
     "Set quarantine permissions on transfer": {
         "message": "Set quarantine permissions on transfer",
         "description": "Link description"
@@ -384,15 +408,15 @@
         "description": "Link description"
     },
     "Check for submission documentation": {
-        "message": "Check for submission documentation",
+        "message": "Comprobar la documentación de entrega",
         "description": "Link description"
     },
     "Create SIP from transfer objects": {
-        "message": "Create SIP from transfer objects",
+        "message": "Crear SIP a partir de los objetos de la transferencia",
         "description": "Link description"
     },
     "Prepare AIC": {
-        "message": "Prepare AIC",
+        "message": "Preparar AIC",
         "description": "Link group"
     },
     "Approve AIP reingest": {
@@ -404,7 +428,7 @@
         "description": "Chain description"
     },
     "Create thumbnails directory": {
-        "message": "Create thumbnails directory",
+        "message": "Crear directorio de miniaturas",
         "description": "Link description"
     },
     "Set files to identify": {
@@ -416,7 +440,7 @@
         "description": "Link description"
     },
     "Approve AIC": {
-        "message": "Approve AIC",
+        "message": "Aprobar AIC",
         "description": "Link description"
     },
     "Move to the rejected directory": {
@@ -426,6 +450,10 @@
     "Verify transfer compliance": {
         "message": "Verify transfer compliance",
         "description": "Link group"
+    },
+    "Handle unstored DIP": {
+        "message": "Handle unstored DIP",
+        "description": "Link description"
     },
     "AIP reingest approval chain": {
         "message": "AIP reingest approval chain",
@@ -440,7 +468,7 @@
         "description": "Link description"
     },
     "Assign checksums and file sizes to objects": {
-        "message": "Assign checksums and file sizes to objects",
+        "message": "Asignar sumas de verificación y tamaños de ficheros a los objectos",
         "description": "Link description"
     },
     "Set file permissions": {
@@ -452,11 +480,11 @@
         "description": "Chain description"
     },
     "Generate METS.xml": {
-        "message": "Generate METS.xml",
+        "message": "Generar METS.xml",
         "description": "Link group"
     },
     "Characterize and extract metadata on metadata files": {
-        "message": "Characterize and extract metadata on metadata files",
+        "message": "Caracterizar y extraer los metadatos de los ficheros de metadatos",
         "description": "Link description"
     },
     "Extract packages?": {
@@ -464,7 +492,7 @@
         "description": "Link description"
     },
     "Add final metadata": {
-        "message": "Add final metadata",
+        "message": "Añadir metadatos finales",
         "description": "Link group"
     },
     "Include default SIP processingMCP.xml": {
@@ -472,7 +500,7 @@
         "description": "Link description"
     },
     "Reject transfer": {
-        "message": "Reject transfer",
+        "message": "Rechazar transferencia",
         "description": "Link group"
     },
     "Identify DSpace text files": {
@@ -480,7 +508,7 @@
         "description": "Link description"
     },
     "Create unquarantine PREMIS events": {
-        "message": "Create unquarantine PREMIS events",
+        "message": "Crear eventos PREMIS de salida de cuarentena",
         "description": "Link description"
     },
     "Store AIP": {
@@ -492,11 +520,11 @@
         "description": "Link description"
     },
     "Parallel bzip2": {
-        "message": "Parallel bzip2",
+        "message": "bzip2 paralelo",
         "description": "Link choice (replacement dict)"
     },
     "Index transfer contents": {
-        "message": "Index transfer contents",
+        "message": "Indexar los contenidos de la transferencia",
         "description": "Link description"
     },
     "Verify SIP compliance": {
@@ -504,7 +532,7 @@
         "description": "Link group"
     },
     "Assign file UUIDs to submission documentation": {
-        "message": "Assign file UUIDs to submission documentation",
+        "message": "Asignar UUIDs a los ficheros de documentación de entrega",
         "description": "Link description"
     },
     "Find type to remove from quarantine as": {
@@ -516,7 +544,7 @@
         "description": "Link description"
     },
     "Choose config for AtoM DIP upload": {
-        "message": "Choose config for AtoM DIP upload",
+        "message": "Elegir configuración de AtoM",
         "description": "Link description"
     },
     "Grant normalization options for no pre-existing DIP": {
@@ -524,7 +552,7 @@
         "description": "Link description"
     },
     "Create AIC METS file": {
-        "message": "Create AIC METS file",
+        "message": "Crear el fichero METS del AIC",
         "description": "Link description"
     },
     "Select compression algorithm": {
@@ -536,11 +564,11 @@
         "description": "Link description"
     },
     "Assign file UUIDs to metadata": {
-        "message": "Assign file UUIDs to metadata",
+        "message": "Asignar UUIDs a los ficheros de metadatos",
         "description": "Link description"
     },
     "Extract contents from compressed archives": {
-        "message": "Extract contents from compressed archives",
+        "message": "Extraer contenidos de los archivos comprimidos",
         "description": "Link description"
     },
     "Set transfer type: TRIM": {
@@ -548,11 +576,11 @@
         "description": "Link description"
     },
     "Check for Service directory": {
-        "message": "Check for Service directory",
+        "message": "Comprobar el directorio de servicio",
         "description": "Link description"
     },
     "Extract zipped bag transfer": {
-        "message": "Extract zipped bag transfer",
+        "message": "Extraer transferencia bag comprimida",
         "description": "Link description"
     },
     "Examine contents?": {
@@ -564,7 +592,7 @@
         "description": "Link description"
     },
     "Move metadata to objects directory": {
-        "message": "Move metadata to objects directory",
+        "message": "Mover metadatos al directorio objects",
         "description": "Link description"
     },
     "Send to backlog": {
@@ -572,7 +600,7 @@
         "description": "Chain description"
     },
     "Attempt restructure for compliance?": {
-        "message": "Attempt restructure for compliance?",
+        "message": "¿Intentar reestructurar para cumplimiento?",
         "description": "Link description"
     },
     "Verify bag, and restructure for compliance": {
@@ -580,11 +608,11 @@
         "description": "Link description"
     },
     "Automatic SIP Creation complete": {
-        "message": "Automatic SIP Creation complete",
+        "message": "Creación automática de SIP completa",
         "description": "Chain description"
     },
     "Approve normalization": {
-        "message": "Approve normalization",
+        "message": "Aprobar normalización",
         "description": "Link description"
     },
     "baggitDirectory Transfers In progress": {
@@ -612,15 +640,19 @@
         "description": "Link group"
     },
     "Create SIP(s)": {
-        "message": "Create SIP(s)",
+        "message": "Crear SIP(s)",
         "description": "Link description"
+    },
+    "Policy checks for derivatives": {
+        "message": "Policy checks for derivatives",
+        "description": "Link group"
     },
     "Load labels from metadata/file_labels.csv": {
         "message": "Load labels from metadata/file_labels.csv",
         "description": "Link description"
     },
     "DSpace Transfers In progress": {
-        "message": "DSpace Transfers In progress",
+        "message": "Transferencia DSpace en proceso",
         "description": "Chain description"
     },
     "Use existing data": {
@@ -628,7 +660,7 @@
         "description": "Link choice (replacement dict)"
     },
     "Move to quarantine": {
-        "message": "Move to quarantine",
+        "message": "Mover a cuarentena",
         "description": "Link description"
     },
     "Find type to process as": {
@@ -636,7 +668,7 @@
         "description": "Link description"
     },
     "Index AIP": {
-        "message": "Index AIP",
+        "message": "Indexar AIP",
         "description": "Link description"
     },
     "Failed transfer": {
@@ -664,23 +696,27 @@
         "description": "Link description"
     },
     "Check for manual normalized files": {
-        "message": "Check for manual normalized files",
+        "message": "Comprobar los ficheros normalizados manualmente",
         "description": "Link description"
     },
     "Move to metadata reminder": {
         "message": "Move to metadata reminder",
         "description": "Link description"
     },
+    "Bind PIDs": {
+        "message": "Bind PIDs",
+        "description": "Link group"
+    },
     "Failed SIP": {
-        "message": "Failed SIP",
+        "message": "SIP fallido",
         "description": "Link group"
     },
     "Normalize service files for thumbnails": {
-        "message": "Normalize service files for thumbnails",
+        "message": "Normalizar ficheros de servicio para miniaturas",
         "description": "Link description"
     },
     "Do not store": {
-        "message": "Do not store",
+        "message": "No almacenar",
         "description": "Chain description"
     },
     "Grant normalization options for pre-existing DIP": {
@@ -699,20 +735,24 @@
         "message": "Almacenar DIP",
         "description": "Link description"
     },
+    "Policy checks for originals": {
+        "message": "Policy checks for originals",
+        "description": "Link description"
+    },
     "Create single SIP and continue processing": {
-        "message": "Create single SIP and continue processing",
+        "message": "Crear SIP y continuar proceso",
         "description": "Chain description"
     },
     "Move transfer back to activeTransfers directory": {
-        "message": "Move transfer back to activeTransfers directory",
+        "message": "Mover la transferencia de vuelta al directorio activeTransfers",
         "description": "Chain description"
     },
     "Create DIP directory": {
-        "message": "Create DIP directory",
+        "message": "Crear el directorio DIP",
         "description": "Link description"
     },
     "Cleanup failed SIP": {
-        "message": "Cleanup failed SIP",
+        "message": "Eliminar SIP fallido",
         "description": "Link description"
     },
     "Upload to Archivists Toolkit": {
@@ -720,7 +760,7 @@
         "description": "Link description"
     },
     "Create removal from backlog PREMIS events": {
-        "message": "Create removal from backlog PREMIS events",
+        "message": "Crear eventos PREMIS de eliminación en cola",
         "description": "Link description"
     },
     "1 - fastest mode": {
@@ -740,11 +780,11 @@
         "description": "Link description"
     },
     "Check if DIP should be generated": {
-        "message": "Check if DIP should be generated",
+        "message": "Comprobar si el DIP debería ser generado",
         "description": "Link description"
     },
     "Copy METS to DIP directory": {
-        "message": "Copy METS to DIP directory",
+        "message": "Copiar METS al directorio DIP",
         "description": "Link description"
     },
     "Move to examine contents": {
@@ -760,7 +800,7 @@
         "description": "Link choice (replacement dict)"
     },
     "Complete transfer": {
-        "message": "Complete transfer",
+        "message": "Completar transferencia",
         "description": "Link group"
     },
     "Skip quarantine": {
@@ -768,7 +808,11 @@
         "description": "Chain description"
     },
     "Check if SIP is from Maildir Transfer": {
-        "message": "Check if SIP is from Maildir Transfer",
+        "message": "Comprobar si el SIP proviene de una transferencia maildir",
+        "description": "Link description"
+    },
+    "Perform policy checks on access derivatives?": {
+        "message": "Perform policy checks on access derivatives?",
         "description": "Link description"
     },
     "Identify DSpace mets files": {
@@ -776,11 +820,19 @@
         "description": "Link description"
     },
     "Move transfer to backlog": {
-        "message": "Move transfer to backlog",
+        "message": "Mover transferencia a la cola",
+        "description": "Link description"
+    },
+    "Store file modification dates": {
+        "message": "Store file modification dates",
+        "description": "Link description"
+    },
+    "Load rights": {
+        "message": "Load rights",
         "description": "Link description"
     },
     "Copy OCR data to DIP directory": {
-        "message": "Copy OCR data to DIP directory",
+        "message": "Copiar datos OCR al directorio DIP",
         "description": "Link description"
     },
     "Set remove preservation and access normalized files to renormalize link.": {
@@ -788,7 +840,7 @@
         "description": "Link description"
     },
     "Generate METS.xml document": {
-        "message": "Generate METS.xml document",
+        "message": "Generar METS.xml",
         "description": "Link description"
     },
     "Skip examine contents": {
@@ -796,15 +848,19 @@
         "description": "Chain description"
     },
     "Identify using Fido": {
-        "message": "Identify using Fido",
+        "message": "Identificar usando FIDO",
         "description": "Link choice (replacement dict)"
     },
     "Check for Access directory": {
-        "message": "Check for Access directory",
+        "message": "Comprobar el directorio de acceso",
+        "description": "Link description"
+    },
+    "Assign UUIDs to directories?": {
+        "message": "Assign UUIDs to directories?",
         "description": "Link description"
     },
     "Determine processing path for this AIP version": {
-        "message": "Determine processing path for this AIP version",
+        "message": "Determinar la ruta de procesamiento para la versión de este AIP",
         "description": "Link description"
     },
     "SIP Creation": {
@@ -812,7 +868,7 @@
         "description": "Chain description"
     },
     "Create quarantine PREMIS events": {
-        "message": "Create quarantine PREMIS events",
+        "message": "Crear eventos PREMIS de cuarentena",
         "description": "Link description"
     },
     "Removed bagged files": {
@@ -832,7 +888,7 @@
         "description": "Link description"
     },
     "Determine what to remove to re-normalize.": {
-        "message": "Determine what to remove to re-normalize.",
+        "message": "Determinar lo que hay que eliminar para realizar la normalización de nuevo",
         "description": "Link description"
     },
     "Remove empty manual normalization directories": {
@@ -840,11 +896,11 @@
         "description": "Link description"
     },
     "Normalize": {
-        "message": "Normalize",
+        "message": "Normalizar",
         "description": "Link group"
     },
     "Identify using Siegfried": {
-        "message": "Identify using Siegfried",
+        "message": "Identificar usando Siegfried",
         "description": "Link choice (replacement dict)"
     },
     "Set transfer type: Maildir": {
@@ -868,15 +924,15 @@
         "description": "Link description"
     },
     "Assign UUIDs to manual normalized preservation files": {
-        "message": "Assign UUIDs to manual normalized preservation files",
+        "message": "Asignar UUIDs a los ficheros preservados manualmente",
         "description": "Link description"
     },
     "Create SIP from Transfer": {
-        "message": "Create SIP from Transfer",
+        "message": "Crear SIP a partir de la transferencia",
         "description": "Link group"
     },
     "Load Dublin Core metadata from disk": {
-        "message": "Load Dublin Core metadata from disk",
+        "message": "Cargar metadatos Dublin Core del disco",
         "description": "Link description"
     },
     "Store DIP location": {
@@ -896,7 +952,7 @@
         "description": "Chain description"
     },
     "Approve bagit transfer": {
-        "message": "Approve bagit transfer",
+        "message": "Aprobar transferencia bagit",
         "description": "Link description"
     },
     "Designate to process as a DSpace transfer when unquarantined": {
@@ -908,19 +964,23 @@
         "description": "Link description"
     },
     "Copy transfers metadata and logs": {
-        "message": "Copy transfers metadata and logs",
+        "message": "Copiar registros y metadatos de la transferencia",
         "description": "Link description"
     },
     "Extract packages": {
         "message": "Extraer paquetes",
         "description": "Link group"
     },
+    "Bind PID": {
+        "message": "Bind PID",
+        "description": "Link description"
+    },
     "Identify file format of metadata files": {
-        "message": "Identify file format of metadata files",
+        "message": "Identificar formato de ficheros de metadatos",
         "description": "Link description"
     },
     "Clean up names": {
-        "message": "Clean up names",
+        "message": "Limpiar nombres",
         "description": "Link group"
     },
     "Populate database with reingested AIP data": {
@@ -928,11 +988,11 @@
         "description": "Link description"
     },
     "Determine which files to identify": {
-        "message": "Determine which files to identify",
+        "message": "Determinar que ficheros hay que identirficar",
         "description": "Link description"
     },
     "7 - maximum compression": {
-        "message": "7 - maximum compression",
+        "message": "7 - máxima compresión",
         "description": "Link choice (replacement dict)"
     },
     "Examine contents": {
@@ -952,7 +1012,7 @@
         "description": "Link group"
     },
     "Move transfer back to activeTransfers directory.": {
-        "message": "Move transfer back to activeTransfers directory.",
+        "message": "Mover la transferencia de vuelta al directorio activeTransfers",
         "description": "Link description"
     },
     "Scan for viruses": {
@@ -960,11 +1020,11 @@
         "description": "Link group"
     },
     "Completed": {
-        "message": "Completed",
+        "message": "Completado",
         "description": "Link description"
     },
     "Approve maildir transfer": {
-        "message": "Approve maildir transfer",
+        "message": "Aprobar transferencia maildir",
         "description": "Link description"
     },
     "Verify mets_structmap.xml compliance": {
@@ -972,7 +1032,7 @@
         "description": "Link description"
     },
     "Approve SIP creation": {
-        "message": "Approve SIP creation",
+        "message": "Aprobar creación de SIP",
         "description": "Link group"
     },
     "Load options to create SIPs": {
@@ -980,7 +1040,7 @@
         "description": "Link description"
     },
     "Compress AIP": {
-        "message": "Compress AIP",
+        "message": "Comprimir AIP",
         "description": "Link description"
     },
     "Scan for viruses in metadata": {
@@ -996,7 +1056,7 @@
         "description": "Link description"
     },
     "Create placement in backlog PREMIS events": {
-        "message": "Create placement in backlog PREMIS events",
+        "message": "Crear eventos PREMIS de localización en cola",
         "description": "Link description"
     },
     "Move to the store AIP approval directory": {
@@ -1008,15 +1068,19 @@
         "description": "Link description"
     },
     "Identify file format of attachments": {
-        "message": "Identify file format of attachments",
+        "message": "Identificar formato de ficheros adjuntos",
         "description": "Link description"
     },
     "Copy thumbnails to DIP directory": {
-        "message": "Copy thumbnails to DIP directory",
+        "message": "Copiar miniaturas al directorio dIP",
         "description": "Link description"
     },
     "Remove files without linking information (failed normalization artifacts etc.)": {
         "message": "Remove files without linking information (failed normalization artifacts etc.)",
+        "description": "Link description"
+    },
+    "Validate access derivatives": {
+        "message": "Validate access derivatives",
         "description": "Link description"
     },
     "Failed compliance": {
@@ -1024,11 +1088,11 @@
         "description": "Link group"
     },
     "Identify file format": {
-        "message": "Identify file format",
+        "message": "Identificar formato de fichero",
         "description": "Link group"
     },
     "Identify manually normalized files": {
-        "message": "Identify manually normalized files",
+        "message": "Identificar ficheros normalizados manualmente",
         "description": "Link description"
     },
     "Sanitize file and directory names in submission documentation": {
@@ -1036,7 +1100,7 @@
         "description": "Link description"
     },
     "Clean up after storing AIP": {
-        "message": "Clean up after storing AIP",
+        "message": "Limpiar después de almacenar el AIP",
         "description": "Link description"
     },
     "Set remove preservation normalized files to renormalize link.": {
@@ -1044,7 +1108,7 @@
         "description": "Link description"
     },
     "Assign file UUIDs to objects": {
-        "message": "Assign file UUIDs to objects",
+        "message": "Asignar UUIDs a los objetos",
         "description": "Link description"
     },
     "Designate to process as a standard transfer": {
@@ -1052,7 +1116,7 @@
         "description": "Link description"
     },
     "Determine if transfer contains packages": {
-        "message": "Determine if transfer contains packages",
+        "message": "Determinar si la transferencia contiene paquetes",
         "description": "Link description"
     },
     "Add processed structMap to METS.xml document": {
@@ -1064,7 +1128,7 @@
         "description": "Chain description"
     },
     "Assign file UUIDs and checksums": {
-        "message": "Assign file UUIDs and checksums",
+        "message": "Asignar UUIDs y sumas de verificación a los ficheros",
         "description": "Link group"
     },
     "Reject": {
@@ -1076,11 +1140,15 @@
         "description": "Link choice (replacement dict)"
     },
     "Move submission documentation into objects directory": {
-        "message": "Move submission documentation into objects directory",
+        "message": "Mover documentación de entrega al directorio objects",
+        "description": "Link description"
+    },
+    "Policy checks for access derivatives": {
+        "message": "Policy checks for access derivatives",
         "description": "Link description"
     },
     "Check if file or folder": {
-        "message": "Check if file or folder",
+        "message": "Comprobar si es un fichero o un directorio",
         "description": "Link description"
     },
     "TRIM Ingest": {
@@ -1096,7 +1164,7 @@
         "description": "Link description"
     },
     "Process manually normalized files": {
-        "message": "Process manually normalized files",
+        "message": "Procesar manualmente ficheros normalizados",
         "description": "Link group"
     },
     "Normalize for access": {
@@ -1108,7 +1176,7 @@
         "description": "Link description"
     },
     "Cleanup rejected SIP": {
-        "message": "Cleanup rejected SIP",
+        "message": "Eliminar SIP rechazado",
         "description": "Link description"
     },
     "Identify DSpace files": {
@@ -1123,16 +1191,20 @@
         "message": "Retrieve AIP Storage Locations",
         "description": "Link description"
     },
+    "Bind PIDs?": {
+        "message": "Bind PIDs?",
+        "description": "Link description"
+    },
     "quarantineSIP ?": {
         "message": "quarantineSIP ?",
         "description": "Chain description"
     },
     "Assign checksums to manual normalized preservation files": {
-        "message": "Assign checksums to manual normalized preservation files",
+        "message": "Asignar sumas de verificación a los ficheros de preservación normalizados manualmente",
         "description": "Link description"
     },
     "Process metadata directory": {
-        "message": "Process metadata directory",
+        "message": "Procesar directorio de metadatos",
         "description": "Link group"
     },
     "Verify metadata directory checksums": {
@@ -1144,7 +1216,7 @@
         "description": "Chain description"
     },
     "Copy preconfigured choice XML to DIP directory": {
-        "message": "Copy preconfigured choice XML to DIP directory",
+        "message": "Copiar XML de configuración de procesamiento al directorio DIP ",
         "description": "Link description"
     },
     "Remove preservation and access normalized files to renormalize.": {
@@ -1164,7 +1236,7 @@
         "description": "Link choice (replacement dict)"
     },
     "Characterize and extract metadata for attachments": {
-        "message": "Characterize and extract metadata for attachments",
+        "message": "Caracterizar y extraer los metadatos de los adjuntos",
         "description": "Link description"
     },
     "Run FITS on manual normalized preservation files": {
@@ -1176,7 +1248,11 @@
         "description": "Link choice (replacement dict)"
     },
     "Approve TRIM transfer": {
-        "message": "Approve TRIM transfer",
+        "message": "Aprobar transferencia TRIM",
+        "description": "Link description"
+    },
+    "Assign UUIDs to directories": {
+        "message": "Assign UUIDs to directories",
         "description": "Link description"
     },
     "Yes": {
